@@ -1,23 +1,19 @@
-<template>
-  <div class="bg-gray-900 text-white flex justify-center">
-    <h1>Index Page</h1>
-  </div>
+<template >
+    <HomeTopSection />
+    <HomeAboutSection />
+    <HomeBrandsSection />
+    <HomeFeatureSection />
+    <HomeCourseSection/>
+    <HomePlatformSection/>
+    <HomeCtaSection />
+    <HomeTopicsSection />
+    <HomeTestimonails/>
+    <HomeTeamSection />
+    
 </template>
 
-<script>
-import { reactive, toRefs } from "vue";
+<script></script>
 
-export default {
-  setup() {
-    const state = reactive({
-      count: 0,
-    });
+<style  src="../assets/css/main.css">
 
-    return {
-      ...toRefs(state),
-    };
-  },
-};
-</script>
-
-<style lang="scss" scoped></style>
+</style>

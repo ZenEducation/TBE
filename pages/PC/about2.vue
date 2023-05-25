@@ -1,0 +1,9 @@
+<template>
+    <About2TopSection/>
+    <About2TopicsSection/>
+    <About2Platform/>
+    <About2Course/>
+    <About2Video/>
+    <HomeTeamSection/>
+    <HomeCtaSection/>
+</template>
