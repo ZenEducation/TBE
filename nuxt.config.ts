@@ -1,6 +1,18 @@
 export default defineNuxtConfig({
   srcDir: "./",
-  css: ["@/assets/css/main.css"],
+  css: [
+    "@/assets/css/main.css",
+  "@/assets/css/font-awesome-pro.min.css",
+  "@/assets/css/vue-multiselect.css",
+  "@/assets/css/v-calendar.css",
+  '@fortawesome/fontawesome-free/css/all.css'],
+
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
 
   modules: [
     // ...
@@ -20,6 +32,12 @@ export default defineNuxtConfig({
   alias: {
     "./runtimeConfig": "./runtimeConfig.browser",
   },
+
+  // vue: {  
+  //   compilerOptions: {
+  //     isCustomElement: (tag) => ['HomeTopSection', 'HomeAboutSection', 'HomeBrandsSection', 'HomeFeatureSection', 'HomeCourseSection', 'HomePlatformSection', 'HomeCtaSection', 'HomeTopicsSection', 'HomeTestimonails', 'HomeTeamSection'].includes(tag),
+  //   },
+  // },
 
   //
   plugins: [{ src: "@/plugins/amplify.ts", mode: "client" }],

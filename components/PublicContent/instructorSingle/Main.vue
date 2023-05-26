@@ -18,7 +18,7 @@
         <div class="lg:col-span-4 col-span-12 ">
           <div class="bg-white shadow-box7 rounded-md max-w-[350px] lg:sticky lg:top-10">
             <div class="h-[400px] mb-8">
-              <img src="../../assets/images/all-img/single-ins.png" alt="" class="w-full h-full block object-cover rounded-t-md">
+              <img src="@/assets/images/all-img/single-ins.png" alt="" class="w-full h-full block object-cover rounded-t-md">
             </div>
             <div class="px-8 pb-8">
               <h5 class=" text-2xl font-bold text-black mb-4">Coralina Cloud</h5>
@@ -56,22 +56,22 @@
               <ul class="flex space-x-4 ">
                 <li>
                   <a href="#" class="flex h-10 w-10">
-                    <img src="../../assets/images/icon/fb.svg" alt="">
+                    <img src="@/assets/images/icon/fb.svg" alt="">
                   </a>
                 </li>
                 <li>
                   <a href="#" class="flex h-10 w-10">
-                    <img src="../../assets/images/icon/tw.svg" alt="">
+                    <img src="@/assets/images/icon/tw.svg" alt="">
                   </a>
                 </li>
                 <li>
                   <a href="#" class="flex h-10 w-10">
-                    <img src="../../assets/images/icon/pn.svg" alt="">
+                    <img src="@/assets/images/icon/pn.svg" alt="">
                   </a>
                 </li>
                 <li>
                   <a href="#" class="flex h-10 w-10">
-                    <img src="../../assets/images/icon/ins.svg" alt="">
+                    <img src="@/assets/images/icon/ins.svg" alt="">
                   </a>
                 </li>
               </ul>
@@ -94,7 +94,7 @@
 
 
             <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
-              <img src="../../assets/images/icon/counter-1.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
+              <img src="@/assets/images/icon/counter-1.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
               <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
                 <span class="counter">
                     82
@@ -105,7 +105,7 @@
             </div>
 
             <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
-              <img src="../../assets/images/icon/counter-2.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
+              <img src="@/assets/images/icon/counter-2.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
               <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
                 <span class="counter">
                     460
@@ -116,7 +116,7 @@
             </div>
 
             <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
-              <img src="../../assets/images/icon/counter-3.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
+              <img src="@/assets/images/icon/counter-3.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
               <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
                 <span class="counter">
                     20
@@ -139,7 +139,7 @@
 
             <a class=" bg-white shadow-box2 rounded-[8px] transition duration-100 hover:shadow-sm" href="#">
               <div class="course-thumb h-[248px] rounded-t-[8px]  relative">
-                <img src="../../assets/images/all-img/c1.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
+                <img src="@/assets/images/all-img/c1.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
                 <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Art &amp; Design</span>
               </div>
               <div class="course-content p-8">
@@ -147,15 +147,15 @@
                 <h4 class=" text-xl mb-3 font-bold">Basic Fundamentals of Interior &amp; Graphics Design</h4>
                 <div class="flex justify-between  space-x-3">
                   <span class=" flex items-center space-x-2">
-                        <img src="../../assets/images/svg/file.svg" alt="">
+                        <img src="@/assets/images/svg/file.svg" alt="">
                             <span>2 Lessons</span>
                   </span>
                   <span class=" flex items-center space-x-2">
-                            <img src="../../assets/images/svg/clock.svg" alt="">
+                            <img src="@/assets/images/svg/clock.svg" alt="">
                                 <span>4h 30m</span>
                   </span>
                   <span class=" flex items-center space-x-2">
-                                <img src="../../assets/images/svg/star.svg" alt="">
+                                <img src="@/assets/images/svg/star.svg" alt="">
                                     <span>4.8</span>
                   </span>
                 </div>
@@ -164,7 +164,7 @@
 
             <a class=" bg-white shadow-box2 rounded-[8px] transition duration-100 hover:shadow-sm" href="#">
               <div class="course-thumb h-[248px] rounded-t-[8px]  relative">
-                <img src="../../assets/images/all-img/c2.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
+                <img src="@/assets/images/all-img/c2.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
                 <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Developemet</span>
               </div>
               <div class="course-content p-8">
@@ -172,15 +172,15 @@
                 <h4 class=" text-xl mb-3 font-bold">Increasing Engagement with Instagram &amp; Facebook</h4>
                 <div class="flex justify-between  space-x-3">
                   <span class=" flex items-center space-x-2">
-                        <img src="../../assets/images/svg/file.svg" alt="">
+                        <img src="@/assets/images/svg/file.svg" alt="">
                             <span>2 Lessons</span>
                   </span>
                   <span class=" flex items-center space-x-2">
-                            <img src="../../assets/images/svg/clock.svg" alt="">
+                            <img src="@/assets/images/svg/clock.svg" alt="">
                                 <span>4h 30m</span>
                   </span>
                   <span class=" flex items-center space-x-2">
-                                <img src="../../assets/images/svg/star.svg" alt="">
+                                <img src="@/assets/images/svg/star.svg" alt="">
                                     <span>4.8</span>
                   </span>
                 </div>
@@ -189,7 +189,7 @@
 
             <a class=" bg-white shadow-box2 rounded-[8px] transition duration-100 hover:shadow-sm" href="#">
               <div class="course-thumb h-[248px] rounded-t-[8px]  relative">
-                <img src="../../assets/images/all-img/c3.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
+                <img src="@/assets/images/all-img/c3.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
                 <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Drawing</span>
               </div>
               <div class="course-content p-8">
@@ -198,15 +198,15 @@
                   Basic UI/UX</h4>
                 <div class="flex justify-between  space-x-3">
                   <span class=" flex items-center space-x-2">
-                        <img src="../../assets/images/svg/file.svg" alt="">
+                        <img src="@/assets/images/svg/file.svg" alt="">
                             <span>2 Lessons</span>
                   </span>
                   <span class=" flex items-center space-x-2">
-                            <img src="../../assets/images/svg/clock.svg" alt="">
+                            <img src="@/assets/images/svg/clock.svg" alt="">
                                 <span>4h 30m</span>
                   </span>
                   <span class=" flex items-center space-x-2">
-                                <img src="../../assets/images/svg/star.svg" alt="">
+                                <img src="@/assets/images/svg/star.svg" alt="">
                                     <span>4.8</span>
                   </span>
                 </div>
@@ -215,7 +215,7 @@
 
             <a class=" bg-white shadow-box2 rounded-[8px] transition duration-100 hover:shadow-sm" href="#">
               <div class="course-thumb h-[248px] rounded-t-[8px]  relative">
-                <img src="../../assets/images/all-img/c4.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
+                <img src="@/assets/images/all-img/c4.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
                 <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Technology</span>
               </div>
               <div class="course-content p-8">
@@ -223,15 +223,15 @@
                 <h4 class=" text-xl mb-3 font-bold">Financial Security Thinking and Principles Theory</h4>
                 <div class="flex justify-between  space-x-3">
                   <span class=" flex items-center space-x-2">
-                        <img src="../../assets/images/svg/file.svg" alt="">
+                        <img src="@/assets/images/svg/file.svg" alt="">
                             <span>2 Lessons</span>
                   </span>
                   <span class=" flex items-center space-x-2">
-                            <img src="../../assets/images/svg/clock.svg" alt="">
+                            <img src="@/assets/images/svg/clock.svg" alt="">
                                 <span>4h 30m</span>
                   </span>
                   <span class=" flex items-center space-x-2">
-                                <img src="../../assets/images/svg/star.svg" alt="">
+                                <img src="@/assets/images/svg/star.svg" alt="">
                                     <span>4.8</span>
                   </span>
                 </div>

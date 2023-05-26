@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="imge-box absolute right-[-60px] top-1/2  -translate-y-1/2 hidden xl:block   ">
-        <img src="../../assets/images/banner/man3.png" alt="">
+        <img src="@/assets/images/banner/man3.png" alt="">
       </div>
     </div>
   </section>

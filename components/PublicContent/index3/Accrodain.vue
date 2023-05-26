@@ -55,7 +55,7 @@
           </ul>
         </div>
         <div>
-          <img src="../../assets/images/all-img/faq.png" alt="">
+          <img src="@/assets/images/all-img/faq.png" alt="">
         </div>
       </div>
     </div>

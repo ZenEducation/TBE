@@ -6,17 +6,17 @@
           <div class="slider-nav">
             <div class="single-item">
               <div class="xl:h-[593px] lg:h-[400px] h-[150px] lg:w-full w-[150px] rounded-md">
-                <img src="../../assets/images/all-img/t1.png" alt="" class=" object-cover w-full h-full rounded-md" />
+                <img src="@/assets/images/all-img/t1.png" alt="" class=" object-cover w-full h-full rounded-md" />
               </div>
             </div>
             <div class="single-item">
               <div class="xl:h-[593px] lg:h-[400px] h-[150px] lg:w-full w-[150px]  rounded-md">
-                <img src="../../assets/images/all-img/t1.png" alt="" class=" object-cover w-full h-full rounded-md" />
+                <img src="@/assets/images/all-img/t1.png" alt="" class=" object-cover w-full h-full rounded-md" />
               </div>
             </div>
             <div class="single-item">
               <div class="xl:h-[593px] lg:h-[400px] h-[150px] lg:w-full w-[150px]  rounded-md">
-                <img src="../../assets/images/all-img/t1.png" alt="" class=" object-cover w-full h-full rounded-md" />
+                <img src="@/assets/images/all-img/t1.png" alt="" class=" object-cover w-full h-full rounded-md" />
               </div>
             </div>
           </div>
@@ -89,27 +89,27 @@
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150 grayscale-[80] hover:grayscale-0 ">
           <a href="#" class=" block">
-            <img src="../../assets/images/all-img/brands/1.svg" alt=""></a>
+            <img src="@/assets/images/all-img/brands/1.svg" alt=""></a>
         </li>
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150 grayscale-[80] hover:grayscale-0 ">
           <a href="#" class=" block">
-            <img src="../../assets/images/all-img/brands/2.svg" alt=""></a>
+            <img src="@/assets/images/all-img/brands/2.svg" alt=""></a>
         </li>
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150 grayscale-[80] hover:grayscale-0 ">
           <a href="#" class=" block">
-            <img src="../../assets/images/all-img/brands/3.svg" alt=""></a>
+            <img src="@/assets/images/all-img/brands/3.svg" alt=""></a>
         </li>
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150 grayscale-[80] hover:grayscale-0 ">
           <a href="#" class=" block">
-            <img src="../../assets/images/all-img/brands/4.svg" alt=""></a>
+            <img src="@/assets/images/all-img/brands/4.svg" alt=""></a>
         </li>
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150 grayscale-[80] hover:grayscale-0 ">
           <a href="#" class=" block">
-            <img src="../../assets/images/all-img/brands/5.svg" alt=""></a>
+            <img src="@/assets/images/all-img/brands/5.svg" alt=""></a>
         </li>
 
       </ul>

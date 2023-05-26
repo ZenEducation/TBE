@@ -1,12 +1,12 @@
 <template>
 
 <div class="about-area  section-padding-top pb-16 relative z-[1]">
-    <div class=" absolute right-[7%] top-[20%] z-[-1] hidden xl:block"><img src="../../assets/images/icon/h.svg" alt="">
+    <div class=" absolute right-[7%] top-[20%] z-[-1] hidden xl:block"><img src="@/assets/images/icon/h.svg" alt="">
     </div>
     <div class="container">
       <div class="grid grid-cols-12 xl:gap-[70px] lg:gap-10 gap-6">
         <div class="xl:col-span-7 lg:col-span-6 col-span-12">
-          <img src="../../assets/images/all-img/about5.png" alt="" />
+          <img src="@/assets/images/all-img/about5.png" alt="" />
         </div>
         <div class="xl:col-span-5 lg:col-span-6 col-span-12 ">
           <div class="mini-title">About Edumim</div>
@@ -22,7 +22,7 @@
             <li class="flex">
               <div class="flex-none mr-6">
                 <div class="h-20 w-20 rounded-full bg-white  shadow-box10 flex flex-col justify-center items-center">
-                  <img src="../../assets/images/icon/video.svg" alt="" class="" />
+                  <img src="@/assets/images/icon/video.svg" alt="" class="" />
                 </div>
               </div>
               <div class="flex-1">
@@ -33,7 +33,7 @@
             <li class="flex">
               <div class="flex-none mr-6">
                 <div class="h-20 w-20 rounded-full bg-white  shadow-box10 flex flex-col justify-center items-center">
-                  <img src="../../assets/images/icon/web-white.svg" alt="" class=" " />
+                  <img src="@/assets/images/icon/web-white.svg" alt="" class=" " />
                 </div>
               </div>
               <div class="flex-1">

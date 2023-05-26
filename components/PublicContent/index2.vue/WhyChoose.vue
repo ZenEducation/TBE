@@ -17,7 +17,7 @@
             <div class="grid lg:grid-cols-2 grid-cols-1 gap-[30px] md:block">
               <div class="bg-white shadow-box7 p-6 rounded">
                 <div>
-                  <img src="../../assets/images/svg/mini-target.svg" alt="">
+                  <img src="@/assets/images/svg/mini-target.svg" alt="">
                 </div>
                 <div class=" font-semibold leading-[27px] text-black mt-3">
                   Learn At Your Own Multiple Courses
@@ -25,7 +25,7 @@
               </div>
               <div class="bg-white shadow-box7 p-6 rounded">
                 <div>
-                  <img src="../../assets/images/svg/mini-heart.svg" alt="">
+                  <img src="@/assets/images/svg/mini-heart.svg" alt="">
                 </div>
                 <div class=" font-semibold leading-[27px] text-black mt-3">
                   We Provide Study Materials
@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="xl:col-span-7 lg:col-span-6 col-span-12 ">
-          <img src="../../assets/images/all-img/about4.png" alt="" class=" block w-full object-contain " />
+          <img src="@/assets/images/all-img/about4.png" alt="" class=" block w-full object-contain " />
         </div>
       </div>
     </div>

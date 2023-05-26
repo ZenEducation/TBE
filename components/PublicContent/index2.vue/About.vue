@@ -3,7 +3,7 @@
         <div class="container">
             <div class="grid grid-cols-12 gap-[30px]">
                 <div class="xl:col-span-7 lg:col-span-6 col-span-12">
-                    <img src="../../assets/images/all-img/about3.png" alt="" class=" block w-full" />
+                    <img src="@/assets/images/all-img/about3.png" alt="" class=" block w-full" />
                 </div>
                 <div class="xl:col-span-5 lg:col-span-6 col-span-12">
                     <div class="mini-title">About Edumim</div>

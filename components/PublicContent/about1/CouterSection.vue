@@ -12,7 +12,7 @@
 
 
         <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
-          <img src="../../assets/images/icon/counter-1.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
+          <img src="@/assets/images/icon/counter-1.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
           <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
             <span class="counter">
                     82
@@ -23,7 +23,7 @@
         </div>
 
         <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
-          <img src="../../assets/images/icon/counter-2.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
+          <img src="@/assets/images/icon/counter-2.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
           <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
             <span class="counter">
                     460
@@ -34,7 +34,7 @@
         </div>
 
         <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
-          <img src="../../assets/images/icon/counter-3.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
+          <img src="@/assets/images/icon/counter-3.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
           <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
             <span class="counter">
                     20
@@ -45,7 +45,7 @@
         </div>
 
         <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
-          <img src="../../assets/images/icon/counter-4.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
+          <img src="@/assets/images/icon/counter-4.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
           <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
             <span class="counter">
                     200

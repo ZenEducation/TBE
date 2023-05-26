@@ -15,7 +15,7 @@
                 <a class=" rounded-[8px] transition-all duration-300 hover:shadow-box bg-white flex space-x-5 p-[30px] border-l-4
             border-white hover:border-primary" href="#">
                     <div class="w-[72px] h-[72px] rounded bg-white relative  group-hover:bg-[#FFE8E8]">
-                        <img src="../../assets/images/icon/ct1.svg" alt="" class="w-full h-full object-cover rounded ">
+                        <img src="@/assets/images/icon/ct1.svg" alt="" class="w-full h-full object-cover rounded ">
                     </div>
                     <div class="course-content">
                         <h4 class=" lg:text-2xl text-1xl  mb-2 font-bold">Data Science</h4>
@@ -26,7 +26,7 @@
                 <a class=" rounded-[8px] transition-all duration-300 hover:shadow-box bg-white flex space-x-5 p-[30px] border-l-4
             border-white hover:border-primary" href="#">
                     <div class="w-[72px] h-[72px] rounded bg-white relative  group-hover:bg-green-paste">
-                        <img src="../../assets/images/icon/ct2.svg" alt="" class="w-full h-full object-cover rounded ">
+                        <img src="@/assets/images/icon/ct2.svg" alt="" class="w-full h-full object-cover rounded ">
                     </div>
                     <div class="course-content">
                         <h4 class=" lg:text-2xl text-1xl  mb-2 font-bold">UI/UX Design</h4>
@@ -37,7 +37,7 @@
                 <a class=" rounded-[8px] transition-all duration-300 hover:shadow-box bg-white flex space-x-5 p-[30px] border-l-4
             border-white hover:border-primary" href="#">
                     <div class="w-[72px] h-[72px] rounded bg-white relative  group-hover:bg-[#E8F5FF]">
-                        <img src="../../assets/images/icon/ct3.svg" alt="" class="w-full h-full object-cover rounded ">
+                        <img src="@/assets/images/icon/ct3.svg" alt="" class="w-full h-full object-cover rounded ">
                     </div>
                     <div class="course-content">
                         <h4 class=" lg:text-2xl text-1xl  mb-2 font-bold">Modern Physics</h4>
@@ -48,7 +48,7 @@
                 <a class=" rounded-[8px] transition-all duration-300 hover:shadow-box bg-white flex space-x-5 p-[30px] border-l-4
             border-white hover:border-primary" href="#">
                     <div class="w-[72px] h-[72px] rounded bg-white relative  group-hover:bg-[#E3F9F6]">
-                        <img src="../../assets/images/icon/ct4.svg" alt="" class="w-full h-full object-cover rounded ">
+                        <img src="@/assets/images/icon/ct4.svg" alt="" class="w-full h-full object-cover rounded ">
                     </div>
                     <div class="course-content">
                         <h4 class=" lg:text-2xl text-1xl  mb-2 font-bold">Music Production</h4>
@@ -59,7 +59,7 @@
                 <a class=" rounded-[8px] transition-all duration-300 hover:shadow-box bg-white flex space-x-5 p-[30px] border-l-4
             border-white hover:border-primary" href="#">
                     <div class="w-[72px] h-[72px] rounded bg-white relative  group-hover:bg-[#EEE8FF]">
-                        <img src="../../assets/images/icon/ct5.svg" alt="" class="w-full h-full object-cover rounded ">
+                        <img src="@/assets/images/icon/ct5.svg" alt="" class="w-full h-full object-cover rounded ">
                     </div>
                     <div class="course-content">
                         <h4 class=" lg:text-2xl text-1xl  mb-2 font-bold">Data Science</h4>
@@ -70,7 +70,7 @@
                 <a class=" rounded-[8px] transition-all duration-300 hover:shadow-box bg-white flex space-x-5 p-[30px] border-l-4
             border-white hover:border-primary" href="#">
                     <div class="w-[72px] h-[72px] rounded bg-white relative  group-hover:bg-[#FFF6EB]">
-                        <img src="../../assets/images/icon/ct6.svg" alt="" class="w-full h-full object-cover rounded ">
+                        <img src="@/assets/images/icon/ct6.svg" alt="" class="w-full h-full object-cover rounded ">
                     </div>
                     <div class="course-content">
                         <h4 class=" lg:text-2xl text-1xl  mb-2 font-bold">Finances</h4>

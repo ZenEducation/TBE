@@ -17,7 +17,7 @@
             <li class="flex flex-wrap">
               <div class="flex-none mr-3">
                 <div class="">
-                  <img src="../../assets/images/svg/ok.svg" alt="" />
+                  <img src="@/assets/images/svg/ok.svg" alt="" />
                 </div>
               </div>
               <div class="flex-1">
@@ -27,7 +27,7 @@
             <li class="flex flex-wrap">
               <div class="flex-none mr-3">
                 <div class="">
-                  <img src="../../assets/images/svg/ok.svg" alt="" />
+                  <img src="@/assets/images/svg/ok.svg" alt="" />
                 </div>
               </div>
               <div class="flex-1">
@@ -37,7 +37,7 @@
             <li class="flex flex-wrap">
               <div class="flex-none mr-3">
                 <div class="">
-                  <img src="../../assets/images/svg/ok.svg" alt="" />
+                  <img src="@/assets/images/svg/ok.svg" alt="" />
                 </div>
               </div>
               <div class="flex-1">
@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="xl:col-span-7 lg:col-span-6 col-span-12 lg:pt-0 md:pt-10 pt-6">
-          <img src="../../assets/images/all-img/about2.png" alt="" class=" mx-auto block w-full" />
+          <img src="@/assets/images/all-img/about2.png" alt="" class=" mx-auto block w-full" />
         </div>
       </div>
     </div>

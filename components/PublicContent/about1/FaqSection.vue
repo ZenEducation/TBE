@@ -54,7 +54,7 @@
           </ul>
         </div>
         <div>
-          <img src="../../assets/images/all-img/faq.png" alt="" class=" mx-auto">
+          <img src="@/assets/images/all-img/faq.png" alt="" class=" mx-auto">
         </div>
       </div>
     </div>

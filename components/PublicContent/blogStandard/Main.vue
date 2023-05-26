@@ -63,7 +63,7 @@ import { BlogCard } from '~~/.nuxt/components';
                                 </div>
                                 <div class="flex-none">
                                     <button class="btn btn-primary">
-                                        <img src="../../assets/images/icon/search.svg" alt=""></button>
+                                        <img src="@/assets/images/icon/search.svg" alt=""></button>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ import { BlogCard } from '~~/.nuxt/components';
                                     class=" flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
                                     <div class="flex-none ">
                                         <div class="h-20 w-20  rounded">
-                                            <img src="../../assets/images/all-img/rc-1.png" alt=""
+                                            <img src="@/assets/images/all-img/rc-1.png" alt=""
                                                 class=" w-full h-full object-cover rounded">
                                         </div>
                                     </div>
@@ -156,7 +156,7 @@ import { BlogCard } from '~~/.nuxt/components';
                                     class=" flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
                                     <div class="flex-none ">
                                         <div class="h-20 w-20  rounded">
-                                            <img src="../../assets/images/all-img/rc-2.png" alt=""
+                                            <img src="@/assets/images/all-img/rc-2.png" alt=""
                                                 class=" w-full h-full object-cover rounded">
                                         </div>
                                     </div>
@@ -171,7 +171,7 @@ import { BlogCard } from '~~/.nuxt/components';
                                     class=" flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
                                     <div class="flex-none ">
                                         <div class="h-20 w-20  rounded">
-                                            <img src="../../assets/images/all-img/rc-3.png" alt=""
+                                            <img src="@/assets/images/all-img/rc-3.png" alt=""
                                                 class=" w-full h-full object-cover rounded">
                                         </div>
                                     </div>
@@ -259,7 +259,7 @@ import { BlogCard } from '~~/.nuxt/components';
 
                                 <div>
                                     <a href="#" class="group relative block h-20 w-full rounded">
-                                        <img src="../../assets/images/all-img/ins-1.png" alt=""
+                                        <img src="@/assets/images/all-img/ins-1.png" alt=""
                                             class="block h-full w-full rounded object-cover" />
                                         <div
                                             class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40
@@ -273,7 +273,7 @@ import { BlogCard } from '~~/.nuxt/components';
 
                                 <div>
                                     <a href="#" class="group relative block h-20 w-full rounded">
-                                        <img src="../../assets/images/all-img/ins-2.png" alt=""
+                                        <img src="@/assets/images/all-img/ins-2.png" alt=""
                                             class="block h-full w-full rounded object-cover" />
                                         <div
                                             class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40
@@ -287,7 +287,7 @@ import { BlogCard } from '~~/.nuxt/components';
 
                                 <div>
                                     <a href="#" class="group relative block h-20 w-full rounded">
-                                        <img src="../../assets/images/all-img/ins-3.png" alt=""
+                                        <img src="@/assets/images/all-img/ins-3.png" alt=""
                                             class="block h-full w-full rounded object-cover" />
                                         <div
                                             class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40
@@ -301,7 +301,7 @@ import { BlogCard } from '~~/.nuxt/components';
 
                                 <div>
                                     <a href="#" class="group relative block h-20 w-full rounded">
-                                        <img src="../../assets/images/all-img/ins-4.png" alt=""
+                                        <img src="@/assets/images/all-img/ins-4.png" alt=""
                                             class="block h-full w-full rounded object-cover" />
                                         <div
                                             class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40
@@ -315,7 +315,7 @@ import { BlogCard } from '~~/.nuxt/components';
 
                                 <div>
                                     <a href="#" class="group relative block h-20 w-full rounded">
-                                        <img src="../../assets/images/all-img/ins-5.png" alt=""
+                                        <img src="@/assets/images/all-img/ins-5.png" alt=""
                                             class="block h-full w-full rounded object-cover" />
                                         <div
                                             class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40
@@ -329,7 +329,7 @@ import { BlogCard } from '~~/.nuxt/components';
 
                                 <div>
                                     <a href="#" class="group relative block h-20 w-full rounded">
-                                        <img src="../../assets/images/all-img/ins-6.png" alt=""
+                                        <img src="@/assets/images/all-img/ins-6.png" alt=""
                                             class="block h-full w-full rounded object-cover" />
                                         <div
                                             class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40

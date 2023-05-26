@@ -1,7 +1,7 @@
 <template>
     <div class=" bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
         <div class="course-thumb h-[260px] rounded-t-[8px]  relative">
-            <img src="../../assets/images/all-img/blog-9.png" alt=""
+            <img src="@/assets/images/all-img/blog-9.png" alt=""
                 class=" w-full h-full object-cover rounded-t-[8px]">
             <span
                 class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Education</span>
@@ -9,11 +9,11 @@
         <div class="course-content p-8">
             <div class="flex   lg:space-x-10 space-x-5 mb-5">
                 <a class=" flex items-center space-x-2" href="blog-single.html">
-                    <img src="../../assets/images/svg/admin.svg" alt="">
+                    <img src="@/assets/images/svg/admin.svg" alt="">
                     <span>Admin</span>
                 </a>
                 <a class=" flex items-center space-x-2" href="blog-single.html">
-                    <img src="../../assets/images/svg/calender.svg" alt="">
+                    <img src="@/assets/images/svg/calender.svg" alt="">
                     <span>Jan 29, 2022</span>
                 </a>
             </div>

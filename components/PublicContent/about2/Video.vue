@@ -5,7 +5,7 @@
     <div class="container ">
       <div class="video-wrapper xl:mb-[205px] lg:mb-[150px] mb-20">
         <div class="xl:h-[652px] lg:h-[500px] h-[400px] max-w-[1112px]  mx-auto p-6 bg-white shadow-box8 rounded-lg relative ">
-          <img src="../../assets/images/all-img/video.png" alt="" class=" object-cover w-full h-full  block">
+          <img src="@/assets/images/all-img/video.png" alt="" class=" object-cover w-full h-full  block">
           <div class="h-[80px] w-[80px] mx-auto absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 flex flex-col justify-center
                         items-center">
             <div class="animate-ping absolute inline-flex h-full w-full rounded-full ring-white ring-2"></div>
@@ -26,27 +26,27 @@
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150 grayscale-[80] hover:grayscale-0 ">
           <a href="#" class=" block">
-            <img src="../../assets/images/all-img/brands/1.svg" alt=""></a>
+            <img src="@/assets/images/all-img/brands/1.svg" alt=""></a>
         </li>
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150 grayscale-[80] hover:grayscale-0 ">
           <a href="#" class=" block">
-            <img src="../../assets/images/all-img/brands/2.svg" alt=""></a>
+            <img src="@/assets/images/all-img/brands/2.svg" alt=""></a>
         </li>
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150 grayscale-[80] hover:grayscale-0 ">
           <a href="#" class=" block">
-            <img src="../../assets/images/all-img/brands/3.svg" alt=""></a>
+            <img src="@/assets/images/all-img/brands/3.svg" alt=""></a>
         </li>
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150 grayscale-[80] hover:grayscale-0 ">
           <a href="#" class=" block">
-            <img src="../../assets/images/all-img/brands/4.svg" alt=""></a>
+            <img src="@/assets/images/all-img/brands/4.svg" alt=""></a>
         </li>
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150 grayscale-[80] hover:grayscale-0 ">
           <a href="#" class=" block">
-            <img src="../../assets/images/all-img/brands/5.svg" alt=""></a>
+            <img src="@/assets/images/all-img/brands/5.svg" alt=""></a>
         </li>
 
       </ul>

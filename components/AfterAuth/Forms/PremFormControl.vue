@@ -11,8 +11,8 @@
   import { controlTextColor } from '@/configs/colorsPremium.js'
   import { useMainStore } from '@/stores/main.js'
   import PremFormControlIcon from '@/components/AfterAuth/Forms/FormControlIcon.vue'
-  import PremFormFieldHelp from '@/components/AfterAuth/Forms/FormFieldHelp.vue'
-  import PremFormControlListbox from '@/components/AfterAuth/Forms/FormControlListbox.vue'
+  import PremFormFieldHelp from '@/components/AfterAuth/Forms/PremFormFieldHelp.vue'
+  import PremFormControlListbox from '@/components/AfterAuth/Forms/PremFormControlListbox.vue'
   import BaseIcon from '@/components/AfterAuth/Display/BaseIcon.vue'
   import PremTipTag from '@/components/AfterAuth/Display/TipTag.vue'
 

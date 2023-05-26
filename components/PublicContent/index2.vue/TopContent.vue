@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="imge-box  hidden  xl:block absolute right-[-60px] top-1/2  -translate-y-1/2 mt-[60px]  ">
-            <img src="../../assets/images/banner/man2.png" alt="">
+            <img src="@/assets/images/banner/man2.png" alt="">
         </div>
     </div>
 </template>

@@ -31,15 +31,15 @@
                     <div>
                         <ul class=" space-y-4">
                             <li class=" flex space-x-[9px]">
-                                <img src="../../assets/images/svg/check.svg" alt="">
+                                <img src="@/assets/images/svg/check.svg" alt="">
                                 <span>Sed sed felis neque vehicula iaculis</span>
                             </li>
                             <li class=" flex space-x-[9px]">
-                                <img src="../../assets/images/svg/check.svg" alt="">
+                                <img src="@/assets/images/svg/check.svg" alt="">
                                 <span>Cras consequat ligula vel augue</span>
                             </li>
                             <li class=" flex space-x-[9px]">
-                                <img src="../../assets/images/svg/check.svg" alt="">
+                                <img src="@/assets/images/svg/check.svg" alt="">
                                 <span>Maecenas bibendum massa eget</span>
                             </li>
                         </ul>
@@ -66,15 +66,15 @@
                     <div>
                         <ul class=" space-y-4">
                             <li class=" flex space-x-[9px]">
-                                <img src="../../assets/images/svg/check.svg" alt="">
+                                <img src="@/assets/images/svg/check.svg" alt="">
                                 <span>Sed sed felis neque vehicula iaculis</span>
                             </li>
                             <li class=" flex space-x-[9px]">
-                                <img src="../../assets/images/svg/check.svg" alt="">
+                                <img src="@/assets/images/svg/check.svg" alt="">
                                 <span>Cras consequat ligula vel augue</span>
                             </li>
                             <li class=" flex space-x-[9px]">
-                                <img src="../../assets/images/svg/check.svg" alt="">
+                                <img src="@/assets/images/svg/check.svg" alt="">
                                 <span>Maecenas bibendum massa eget</span>
                             </li>
                         </ul>
@@ -101,15 +101,15 @@
                     <div>
                         <ul class=" space-y-4">
                             <li class=" flex space-x-[9px]">
-                                <img src="../../assets/images/svg/check.svg" alt="">
+                                <img src="@/assets/images/svg/check.svg" alt="">
                                 <span>Sed sed felis neque vehicula iaculis</span>
                             </li>
                             <li class=" flex space-x-[9px]">
-                                <img src="../../assets/images/svg/check.svg" alt="">
+                                <img src="@/assets/images/svg/check.svg" alt="">
                                 <span>Cras consequat ligula vel augue</span>
                             </li>
                             <li class=" flex space-x-[9px]">
-                                <img src="../../assets/images/svg/check.svg" alt="">
+                                <img src="@/assets/images/svg/check.svg" alt="">
                                 <span>Maecenas bibendum massa eget</span>
                             </li>
                         </ul>

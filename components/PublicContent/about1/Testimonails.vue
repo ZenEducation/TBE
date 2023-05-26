@@ -3,7 +3,7 @@
     <div class="container">
       <div class="grid grid-cols-12 lg:gap-10 gap-6 ">
         <div class="xl:col-span-7 lg:col-span-6 col-span-12">
-          <img src="../../assets/images/all-img/testi-left.png" alt="" draggable="false" />
+          <img src="@/assets/images/all-img/testi-left.png" alt="" draggable="false" />
         </div>
         <div class="xl:col-span-5 lg:col-span-6 col-span-12 flex flex-col justify-center ">
           <div class="mini-title">Testimonial</div>

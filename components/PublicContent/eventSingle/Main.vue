@@ -14,7 +14,7 @@
 
   <div class="nav-tab-wrapper tabs  section-padding">
     <div class="container">
-      <img src="../../assets/images/all-img/main-event.png" alt="" class=" lg:mb-10 mb-6 block w-full">
+      <img src="@/assets/images/all-img/main-event.png" alt="" class=" lg:mb-10 mb-6 block w-full">
       <div class="grid grid-cols-12 gap-[30px]">
         <div class="lg:col-span-8 col-span-12">
           <h3>
@@ -43,22 +43,22 @@
             <ul class="flex space-x-3 lg:justify-end items-center  ">
               <li>
                 <a href="#" class="flex h-8 w-8">
-                  <img src="../../assets/images/icon/fb.svg" alt="">
+                  <img src="@/assets/images/icon/fb.svg" alt="">
                 </a>
               </li>
               <li>
                 <a href="#" class="flex h-8 w-8">
-                  <img src="../../assets/images/icon/tw.svg" alt="">
+                  <img src="@/assets/images/icon/tw.svg" alt="">
                 </a>
               </li>
               <li>
                 <a href="#" class="flex h-8 w-8">
-                  <img src="../../assets/images/icon/pn.svg" alt="">
+                  <img src="@/assets/images/icon/pn.svg" alt="">
                 </a>
               </li>
               <li>
                 <a href="#" class="flex h-8 w-8">
-                  <img src="../../assets/images/icon/ins.svg" alt="">
+                  <img src="@/assets/images/icon/ins.svg" alt="">
                 </a>
               </li>
             </ul>
@@ -74,35 +74,35 @@
 
                 <li class=" flex space-x-3 ">
                   <div class="flex-1 space-x-3 flex">
-                    <img src="../../assets/images/svg/circle-clock.svg" alt="" />
+                    <img src="@/assets/images/svg/circle-clock.svg" alt="" />
                     <div>4:00 pm - 6:00 pm</div>
                   </div>
                 </li>
 
                 <li class=" flex space-x-3 ">
                   <div class="flex-1 space-x-3 flex">
-                    <img src="../../assets/images/svg/circle-c.svg" alt="" />
+                    <img src="@/assets/images/svg/circle-c.svg" alt="" />
                     <div>03 March, 2022</div>
                   </div>
                 </li>
 
                 <li class=" flex space-x-3 ">
                   <div class="flex-1 space-x-3 flex">
-                    <img src="../../assets/images/svg/circle-clock.svg" alt="" />
+                    <img src="@/assets/images/svg/circle-clock.svg" alt="" />
                     <div>12/A, NewYork Sydney City</div>
                   </div>
                 </li>
 
                 <li class=" flex space-x-3 ">
                   <div class="flex-1 space-x-3 flex">
-                    <img src="../../assets/images/svg/circle-clock.svg" alt="" />
+                    <img src="@/assets/images/svg/circle-clock.svg" alt="" />
                     <div>yourmail@gmail.com</div>
                   </div>
                 </li>
 
                 <li class=" flex space-x-3 ">
                   <div class="flex-1 space-x-3 flex">
-                    <img src="../../assets/images/svg/circle-clock.svg" alt="" />
+                    <img src="@/assets/images/svg/circle-clock.svg" alt="" />
                     <div>+88018 2829 98267</div>
                   </div>
                 </li>
@@ -118,7 +118,7 @@
                 <li class=" flex space-x-4 border-[#ECECEC] ">
                   <div class="flex-none ">
                     <div class="h-20 w-20   rounded-full">
-                      <img src="../../assets/images/all-img/rc-1.png" alt="" class=" w-full h-full object-cover rounded-full">
+                      <img src="@/assets/images/all-img/rc-1.png" alt="" class=" w-full h-full object-cover rounded-full">
                     </div>
                   </div>
                   <div class="flex-1 ">
@@ -133,7 +133,7 @@
                 <li class=" flex space-x-4 border-[#ECECEC] ">
                   <div class="flex-none ">
                     <div class="h-20 w-20   rounded-full">
-                      <img src="../../assets/images/all-img/rc-2.png" alt="" class=" w-full h-full object-cover rounded-full">
+                      <img src="@/assets/images/all-img/rc-2.png" alt="" class=" w-full h-full object-cover rounded-full">
                     </div>
                   </div>
                   <div class="flex-1 ">

@@ -9,7 +9,7 @@
                     </div>
                     <div class="flex-none">
                         <button class="btn btn-primary">
-                            <img src="../../assets/images/icon/search.svg" alt="" />
+                            <img src="@/assets/images/icon/search.svg" alt="" />
                         </button>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                 <div class="grid grid-cols-3 gap-4">
                     <div>
                         <a href="#" class="group relative block h-20 w-full rounded">
-                            <img src="../../assets/images/all-img/ins-1.png" alt=""
+                            <img src="@/assets/images/all-img/ins-1.png" alt=""
                                 class="block h-full w-full rounded object-cover" />
                             <div
                                 class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
@@ -101,7 +101,7 @@
 
                     <div>
                         <a href="#" class="group relative block h-20 w-full rounded">
-                            <img src="../../assets/images/all-img/ins-2.png" alt=""
+                            <img src="@/assets/images/all-img/ins-2.png" alt=""
                                 class="block h-full w-full rounded object-cover" />
                             <div
                                 class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
@@ -114,7 +114,7 @@
 
                     <div>
                         <a href="#" class="group relative block h-20 w-full rounded">
-                            <img src="../../assets/images/all-img/ins-3.png" alt=""
+                            <img src="@/assets/images/all-img/ins-3.png" alt=""
                                 class="block h-full w-full rounded object-cover" />
                             <div
                                 class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
@@ -127,7 +127,7 @@
 
                     <div>
                         <a href="#" class="group relative block h-20 w-full rounded">
-                            <img src="../../assets/images/all-img/ins-4.png" alt=""
+                            <img src="@/assets/images/all-img/ins-4.png" alt=""
                                 class="block h-full w-full rounded object-cover" />
                             <div
                                 class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
@@ -140,7 +140,7 @@
 
                     <div>
                         <a href="#" class="group relative block h-20 w-full rounded">
-                            <img src="../../assets/images/all-img/ins-5.png" alt=""
+                            <img src="@/assets/images/all-img/ins-5.png" alt=""
                                 class="block h-full w-full rounded object-cover" />
                             <div
                                 class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
@@ -153,7 +153,7 @@
 
                     <div>
                         <a href="#" class="group relative block h-20 w-full rounded">
-                            <img src="../../assets/images/all-img/ins-6.png" alt=""
+                            <img src="@/assets/images/all-img/ins-6.png" alt=""
                                 class="block h-full w-full rounded object-cover" />
                             <div
                                 class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">

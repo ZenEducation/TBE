@@ -28,7 +28,7 @@
         <div class=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
                             border-t-4 border-transparent hover:border-primary ">
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
-            <img src="../../assets/images/all-img/team1.png" alt="" class=" w-full h-full object-cover rounded-full">
+            <img src="@/assets/images/all-img/team1.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content">
             <h4 class=" text-2xl mb-1 font-bold">Erics Widget</h4>
@@ -59,7 +59,7 @@
         <div class=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
                             border-t-4 border-transparent hover:border-primary ">
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
-            <img src="../../assets/images/all-img/team2.png" alt="" class=" w-full h-full object-cover rounded-full">
+            <img src="@/assets/images/all-img/team2.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content">
             <h4 class=" text-2xl mb-1 font-bold">Daniel Steven</h4>
@@ -90,7 +90,7 @@
         <div class=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
                             border-t-4 border-transparent hover:border-primary ">
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
-            <img src="../../assets/images/all-img/team3.png" alt="" class=" w-full h-full object-cover rounded-full">
+            <img src="@/assets/images/all-img/team3.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content">
             <h4 class=" text-2xl mb-1 font-bold">Nelson Decosta</h4>
@@ -121,7 +121,7 @@
         <div class=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
                             border-t-4 border-transparent hover:border-primary ">
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
-            <img src="../../assets/images/all-img/team4.png" alt="" class=" w-full h-full object-cover rounded-full">
+            <img src="@/assets/images/all-img/team4.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content">
             <h4 class=" text-2xl mb-1 font-bold">Selina Gomez</h4>
@@ -152,7 +152,7 @@
         <div class=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
                             border-t-4 border-transparent hover:border-primary ">
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
-            <img src="../../assets/images/all-img/team5.png" alt="" class=" w-full h-full object-cover rounded-full">
+            <img src="@/assets/images/all-img/team5.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content">
             <h4 class=" text-2xl mb-1 font-bold"> Michle Collins</h4>
@@ -183,7 +183,7 @@
         <div class=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
                             border-t-4 border-transparent hover:border-primary ">
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
-            <img src="../../assets/images/all-img/team6.png" alt="" class=" w-full h-full object-cover rounded-full">
+            <img src="@/assets/images/all-img/team6.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content">
             <h4 class=" text-2xl mb-1 font-bold">Jackline Deo</h4>
@@ -214,7 +214,7 @@
         <div class=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
                             border-t-4 border-transparent hover:border-primary ">
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
-            <img src="../../assets/images/all-img/team7.png" alt="" class=" w-full h-full object-cover rounded-full">
+            <img src="@/assets/images/all-img/team7.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content">
             <h4 class=" text-2xl mb-1 font-bold">Stiphen Robert</h4>
@@ -245,7 +245,7 @@
         <div class=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
                             border-t-4 border-transparent hover:border-primary ">
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
-            <img src="../../assets/images/all-img/team8.png" alt="" class=" w-full h-full object-cover rounded-full">
+            <img src="@/assets/images/all-img/team8.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content">
             <h4 class=" text-2xl mb-1 font-bold">Daiyan Steven</h4>

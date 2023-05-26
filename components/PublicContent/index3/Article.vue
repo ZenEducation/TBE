@@ -15,7 +15,7 @@
             hover:shadow-box8 sm:flex p-4 sm:space-x-6 space-y-6 sm:space-y-0">
           <div class="flex-none">
             <div class="sm:w-[200px] h-[182px]  rounded  relative">
-              <img src="../../assets/images/all-img/c1.png" alt="" class=" w-full h-full object-cover rounded">
+              <img src="@/assets/images/all-img/c1.png" alt="" class=" w-full h-full object-cover rounded">
             </div>
           </div>
           <div class="course-content flex-1">
@@ -28,11 +28,11 @@
             </h4>
             <div class="flex   space-x-6">
               <a class=" flex items-center space-x-2" href="#">
-                <img src="../../assets/images/svg/calender2.svg" alt="">
+                <img src="@/assets/images/svg/calender2.svg" alt="">
                 <span>21 Feb, 22</span>
               </a>
               <a class=" flex items-center space-x-2" href="#">
-                <img src="../../assets/images/svg/clock2.svg" alt="">
+                <img src="@/assets/images/svg/clock2.svg" alt="">
                 <span>4k Lesson</span>
               </a>
             </div>
@@ -43,7 +43,7 @@
             hover:shadow-box8 sm:flex p-4 sm:space-x-6 space-y-6 sm:space-y-0">
           <div class="flex-none">
             <div class="sm:w-[200px] h-[182px]  rounded  relative">
-              <img src="../../assets/images/all-img/c2.png" alt="" class=" w-full h-full object-cover rounded">
+              <img src="@/assets/images/all-img/c2.png" alt="" class=" w-full h-full object-cover rounded">
             </div>
           </div>
           <div class="course-content flex-1">
@@ -56,11 +56,11 @@
             </h4>
             <div class="flex   space-x-6">
               <a class=" flex items-center space-x-2" href="#">
-                <img src="../../assets/images/svg/calender2.svg" alt="">
+                <img src="@/assets/images/svg/calender2.svg" alt="">
                 <span>21 Feb, 22</span>
               </a>
               <a class=" flex items-center space-x-2" href="#">
-                <img src="../../assets/images/svg/clock2.svg" alt="">
+                <img src="@/assets/images/svg/clock2.svg" alt="">
                 <span>4k Lesson</span>
               </a>
             </div>
@@ -71,7 +71,7 @@
             hover:shadow-box8 sm:flex p-4 sm:space-x-6 space-y-6 sm:space-y-0">
           <div class="flex-none">
             <div class="sm:w-[200px] h-[182px]  rounded  relative">
-              <img src="../../assets/images/all-img/c3.png" alt="" class=" w-full h-full object-cover rounded">
+              <img src="@/assets/images/all-img/c3.png" alt="" class=" w-full h-full object-cover rounded">
             </div>
           </div>
           <div class="course-content flex-1">
@@ -84,11 +84,11 @@
             </h4>
             <div class="flex   space-x-6">
               <a class=" flex items-center space-x-2" href="#">
-                <img src="../../assets/images/svg/calender2.svg" alt="">
+                <img src="@/assets/images/svg/calender2.svg" alt="">
                 <span>21 Feb, 22</span>
               </a>
               <a class=" flex items-center space-x-2" href="#">
-                <img src="../../assets/images/svg/clock2.svg" alt="">
+                <img src="@/assets/images/svg/clock2.svg" alt="">
                 <span>4k Lesson</span>
               </a>
             </div>
@@ -99,7 +99,7 @@
             hover:shadow-box8 sm:flex p-4 sm:space-x-6 space-y-6 sm:space-y-0">
           <div class="flex-none">
             <div class="sm:w-[200px] h-[182px]  rounded  relative">
-              <img src="../../assets/images/all-img/c4.png" alt="" class=" w-full h-full object-cover rounded">
+              <img src="@/assets/images/all-img/c4.png" alt="" class=" w-full h-full object-cover rounded">
             </div>
           </div>
           <div class="course-content flex-1">
@@ -112,11 +112,11 @@
             </h4>
             <div class="flex   space-x-6">
               <a class=" flex items-center space-x-2" href="#">
-                <img src="../../assets/images/svg/calender2.svg" alt="">
+                <img src="@/assets/images/svg/calender2.svg" alt="">
                 <span>21 Feb, 22</span>
               </a>
               <a class=" flex items-center space-x-2" href="#">
-                <img src="../../assets/images/svg/clock2.svg" alt="">
+                <img src="@/assets/images/svg/clock2.svg" alt="">
                 <span>4k Lesson</span>
               </a>
             </div>
