@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  srcDir: "./",
+  // srcDir: "./",
   css: [
     "@/assets/css/main.css",
   "@/assets/css/font-awesome-pro.min.css",
@@ -7,12 +7,12 @@ export default defineNuxtConfig({
   "@/assets/css/v-calendar.css",
   '@fortawesome/fontawesome-free/css/all.css'],
 
-  components: [
-    {
-      path: '~/components',
-      pathPrefix: false,
-    },
-  ],
+  // components: [
+  //   {
+  //     path: '~/components',
+  //     pathPrefix: false,
+  //   },
+  // ],
 
   modules: [
     // ...
