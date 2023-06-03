@@ -1,5 +1,5 @@
 <template>
-    <div class="about-area section-padding">
+  <div class="about-area section-padding">
     <div class="container">
       <div class="grid lg:grid-cols-2 grid-cols-1 gap-10">
         <div>
@@ -10,7 +10,7 @@
           <h4 class="column-title ">
             The Place Where You Can
             <span class="shape-bg">
-                            Achieve</span>
+              Achieve</span>
           </h4>
           <div>
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
@@ -19,7 +19,8 @@
             <li class="flex">
               <div class="flex-none mr-6">
                 <div class="h-[72px] w-[72px] rounded-full">
-                  <img src="@/assets/images/svg/light.svg" alt="" class=" w-full h-full object-cover rounded-full block" />
+                  <img src="@/assets/images/svg/light.svg" alt=""
+                    class=" w-full h-full object-cover rounded-full block" />
                 </div>
               </div>
               <div class="flex-1">
@@ -30,7 +31,8 @@
             <li class="flex">
               <div class="flex-none mr-6">
                 <div class="h-[72px] w-[72px] rounded-full">
-                  <img src="@/assets/images/svg/target.svg" alt="" class=" w-full h-full object-cover rounded-full block" />
+                  <img src="@/assets/images/svg/target.svg" alt=""
+                    class=" w-full h-full object-cover rounded-full block" />
                 </div>
               </div>
               <div class="flex-1">
@@ -46,5 +48,4 @@
       </div>
     </div>
   </div>
-  
 </template>

@@ -1,11 +1,16 @@
+import { defineNuxtConfig } from 'nuxt/config'
+
 export default defineNuxtConfig({
   // srcDir: "./",
   css: [
     "@/assets/css/main.css",
-  "@/assets/css/font-awesome-pro.min.css",
-  "@/assets/css/vue-multiselect.css",
-  "@/assets/css/v-calendar.css",
-  '@fortawesome/fontawesome-free/css/all.css'],
+    "@/assets/css/font-awesome-pro.min.css",
+    "@/assets/css/font-gilroy.css",
+    "@/assets/css/fonts-rossela.css",
+    "@/assets/css/fonts.css",
+    "@/assets/css/vue-multiselect.css",
+    "@/assets/css/v-calendar.css",
+    '@fortawesome/fontawesome-free/css/all.css'],
 
   // components: [
   //   {

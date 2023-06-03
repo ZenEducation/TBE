@@ -7,9 +7,9 @@
         :tool-color="getPencilColor"
         :is-active="tool === 'pencil'"
         icon="pencil-alt"
-        @click.native="
-          togglePencilSettings()
-          setWhiteboardTool('pencil')
+        @click="
+          togglePencilSettings();
+          setWhiteboardTool('pencil');
         "
       />
       <!-- Pencil settings -->
@@ -26,7 +26,7 @@
 
         <!-- Slider -->
         <rangeSlider
-          slot="slider"
+          v-slot="slider"
           :on-change="setToolSize"
           :min="0"
           :max="6"
@@ -40,9 +40,9 @@
         :tool-color="brushColor"
         :is-active="tool === 'brush'"
         icon="paint-brush"
-        @click.native="
-          toggleBrushSettings()
-          setWhiteboardTool('brush')
+        @click="
+          toggleBrushSettings();
+          setWhiteboardTool('brush');
         "
       />
       <!-- Brush settings -->
@@ -59,7 +59,7 @@
 
         <!-- Slider -->
         <rangeSlider
-          slot="slider"
+          v-slot="slider"
           :on-change="setToolSize"
           :min="0"
           :max="6"
@@ -73,16 +73,16 @@
         tool-color="#133337"
         :is-active="tool === 'eraser'"
         icon="eraser"
-        @click.native="
-          toggleEraserSettings()
-          setWhiteboardTool('eraser')
+        @click="
+          toggleEraserSettings();
+          setWhiteboardTool('eraser');
         "
       />
       <!-- Eraser settings -->
       <panelToolSettings v-if="isEraserSettingsOpened">
         <!-- Slider -->
         <rangeSlider
-          slot="slider"
+          v-slot="slider"
           :on-change="setEraserSize"
           :min="0"
           :max="24"
@@ -101,40 +101,42 @@
           tool === 'line'
         "
         :icon="activeShape"
-        @click.native="toggleShapeSettings"
+        @click="toggleShapeSettings"
       />
       <!-- Shape settings -->
       <panelToolSettings v-if="isShapeSettingsOpened">
         <!-- SettingsActions -->
-        <template #settingsActions class="settingsActions">
+        <template #settingsActions >
+          <div class="settingsActions">
           <!-- Circle select -->
           <panelToolIcon
             :tool-color="shapeColor"
             :is-active="tool === 'circle'"
             icon="circle"
-            @click.native="setWhiteboardTool('circle')"
+            @click="setWhiteboardTool('circle')"
           />
           <!-- Square select -->
           <panelToolIcon
             :tool-color="shapeColor"
             :is-active="tool === 'square'"
             icon="square"
-            @click.native="setWhiteboardTool('square')"
+            @click="setWhiteboardTool('square')"
           />
           <!-- Triangle select -->
           <panelToolIcon
             :tool-color="shapeColor"
             :is-active="tool === 'triangle'"
             icon="exclamation-triangle"
-            @click.native="setWhiteboardTool('triangle')"
+            @click="setWhiteboardTool('triangle')"
           />
           <!-- Line select -->
           <panelToolIcon
             :tool-color="shapeColor"
             :is-active="tool === 'line'"
             icon="slash"
-            @click.native="setWhiteboardTool('line')"
+            @click="setWhiteboardTool('line')"
           />
+        </div>
         </template>
 
         <template #settingsColorPicker>
