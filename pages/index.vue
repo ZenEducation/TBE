@@ -1,23 +1,30 @@
-<template>
-  <div class="bg-gray-900 text-white flex justify-center">
-    <h1>Index Page</h1>
-  </div>
-</template>
-
-<script>
-import { reactive, toRefs } from "vue";
-
-export default {
-  setup() {
-    const state = reactive({
-      count: 0,
-    });
-
-    return {
-      ...toRefs(state),
-    };
-  },
-};
+<script setup>
+  import HomeTopSection from '@/components/PublicContent/Home/HomeTopSection.vue'
+  import HomeAboutSection from '@/components/PublicContent/Home/HomeAboutSection.vue'
+  import HomeBrandsSection from '@/components/PublicContent/Home/HomeBrandsSection.vue'
+  import HomeFeatureSection from '@/components/PublicContent/Home/HomeFeatureSection.vue'
+  import HomeCourseSection from '@/components/PublicContent/Home/HomeCourseSection.vue'
+  import HomePlatformSection from '@/components/PublicContent/Home/HomePlatformSection.vue'
+  import HomeCtaSection from '@/components/PublicContent/Home/HomeCtaSection.vue'
+  import HomeTopicsSection from '@/components/PublicContent/Home/HomeTopicsSection.vue'
+  import HomeTestimonails from '@/components/PublicContent/Home/HomeTestimonails.vue'
+  import HomeTeamSection from '@/components/PublicContent/Home/HomeTeamSection.vue'
 </script>
 
-<style lang="scss" scoped></style>
+<template >
+    <HomeTopSection />
+    <HomeAboutSection />
+    <HomeBrandsSection />
+    <HomeFeatureSection />
+    <HomeCourseSection/>
+    <HomePlatformSection/>
+    <HomeCtaSection />
+    <HomeTopicsSection />
+    <HomeTestimonails/>
+    <HomeTeamSection />
+    
+</template>
+
+<style  src="@/assets/css/main.css">
+
+</style>

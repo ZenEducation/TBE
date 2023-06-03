@@ -13,6 +13,10 @@ module.exports = {
   ],
   darkMode: "class", // or 'media' or 'class'
   theme: {
+     fontFamily: {
+      sans: ['Gillroy', 'sans-serif'],
+      // Other font families...
+    },
     asideScrollbars: {
       light: "light",
       gray: "gray",
@@ -80,5 +84,6 @@ module.exports = {
         { values: theme("asideScrollbars") }
       );
     }),
+    require("tailwind-scrollbar")({ nocompatible: true }),
   ],
 };
