@@ -9,6 +9,7 @@
   import HomeTopicsSection from '@/components/PublicContent/Home/HomeTopicsSection.vue'
   import HomeTestimonails from '@/components/PublicContent/Home/HomeTestimonails.vue'
   import HomeTeamSection from '@/components/PublicContent/Home/HomeTeamSection.vue'
+  import CreateBlog from '@/components/AfterAuth/Blog/CreateBlog.vue'
 </script>
 
 <template >
@@ -22,6 +23,7 @@
     <HomeTopicsSection />
     <HomeTestimonails/>
     <HomeTeamSection />
+    <CreateBlog/>
     
 </template>
 
