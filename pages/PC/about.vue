@@ -1,11 +1,11 @@
 
-import { HomeTestimonails } from '~~/.nuxt/components';
+import { HomeTestimonials } from '~~/.nuxt/components';
 
 <template>
-    <About1TopSection/>
-    <About1FeatureSection/>
-    <About1CouterSection/>
-    <About1Testimonails/>
-    <About1TeamSection/>
-    <About1FaqSection/>
+    <TopSection/>
+    <FeatureSection/>
+    <CounterSection/>
+    <Testimonials/>
+    <TeamSection/>
+    <FaqSection/>
 </template>

@@ -40,9 +40,15 @@ export default defineNuxtConfig({
 
   // vue: {  
   //   compilerOptions: {
-  //     isCustomElement: (tag) => ['HomeTopSection', 'HomeAboutSection', 'HomeBrandsSection', 'HomeFeatureSection', 'HomeCourseSection', 'HomePlatformSection', 'HomeCtaSection', 'HomeTopicsSection', 'HomeTestimonails', 'HomeTeamSection'].includes(tag),
+  //     isCustomElement: (tag) => ['HomeTopSection', 'HomeAboutSection', 'HomeBrandsSection', 'HomeFeatureSection', 'HomeCourseSection', 'HomePlatformSection', 'HomeCtaSection', 'HomeTopicsSection', 'HomeTestimonials', 'HomeTeamSection'].includes(tag),
   //   },
   // },
+
+   vue: {  
+    compilerOptions: {
+      isCustomElement: (tag) => ['iconify-icon'].includes(tag),
+    },
+  },
 
   //
   plugins: [{ src: "@/plugins/amplify.ts", mode: "client" }],

@@ -7,7 +7,7 @@
   import HomePlatformSection from '@/components/PublicContent/Home/HomePlatformSection.vue'
   import HomeCtaSection from '@/components/PublicContent/Home/HomeCtaSection.vue'
   import HomeTopicsSection from '@/components/PublicContent/Home/HomeTopicsSection.vue'
-  import HomeTestimonails from '@/components/PublicContent/Home/HomeTestimonails.vue'
+  import HomeTestimonials from '@/components/PublicContent/Home/HomeTestimonials.vue'
   import HomeTeamSection from '@/components/PublicContent/Home/HomeTeamSection.vue'
   import CreateBlog from '@/components/AfterAuth/Blog/CreateBlog.vue'
 </script>
@@ -21,7 +21,7 @@
     <HomePlatformSection/>
     <HomeCtaSection />
     <HomeTopicsSection />
-    <HomeTestimonails/>
+    <HomeTestimonials/>
     <HomeTeamSection />
     <CreateBlog/>
     

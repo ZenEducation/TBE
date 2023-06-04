@@ -5,9 +5,9 @@
     <Index3About/>
     <Index3Course/>
     <Index3Team/>
-    <Index3Testtimonal/>
+    <Index3Testimonial/>
     <Index3Events/>
-    <Index3CourseBloack/>
+    <Index3CourseBlock/>
     <Index3Accrodain/>
-    <Index3Artical/>
+    <Index3Article/>
 </template>
