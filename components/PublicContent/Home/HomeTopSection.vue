@@ -38,6 +38,6 @@
 
 <style>
   .bg-custom-image {
-  background-image: url('../../../assets/images/banner/1.png');
+  background-image: url('../../@/assets/images/banner/1.png');
 }
 </style>
