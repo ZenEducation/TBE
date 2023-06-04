@@ -16,7 +16,7 @@
           <div class="md:flex   items-center  relative md:space-x-6 md:space-y-0  space-y-4   ">
             <div class="flex-1 relative">
               <span class=" absolute left-0 top-1/2 -translate-y-1/2 ">
-                            <img src="@/assets/images/icon/mail-white.svg" alt="">
+                            <img src="@/assets/images/icon/mail.svg" alt="">
                         </span>
               <input type="text" placeholder="Enter your mail address" class=" border-b border-t-0 border-l-0 border-r-0 border-[#B2E2DF] ring-0 focus:ring-0 bg-transparent text-white
                                 placeholder:text-[#B2E2DF] focus:outline-0 focus:border-[#B2E2DF] transition pl-8 text-lg">
