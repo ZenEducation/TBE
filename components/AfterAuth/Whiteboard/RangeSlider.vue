@@ -1,5 +1,5 @@
 <template>
-  <VueSlider
+  <!-- <VueSlider
     v-model="sliderValue"
     :lazy="true"
     :min="min"
@@ -12,11 +12,12 @@
     :slider-style="{ backgroundColor: 'black', boxShadow: 'unset' }"
     tooltip="none"
     :width="'168px'"
-  ></VueSlider>
+  ></VueSlider> -->
+  <div></div>
 </template>
 
 <script>
-  import VueSlider from 'vue-3-slider-component'
+  // import VueSlider from 'vue-3-slider-component'
   // import { reactive, toRefs } from "vue";
 
   export default {
@@ -25,7 +26,7 @@
     //   return toRefs(data);
     // },
     components: {
-      VueSlider,
+      // VueSlider,
     },
     props: ['min', 'max', 'value', 'onChange'],
     data() {

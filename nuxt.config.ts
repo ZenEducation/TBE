@@ -12,12 +12,12 @@ export default defineNuxtConfig({
     "@/assets/css/v-calendar.css",
     '@fortawesome/fontawesome-free/css/all.css'],
 
-  // components: [
-  //   {
-  //     path: '~/components',
-  //     pathPrefix: false,
-  //   },
-  // ],
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
 
   modules: [
     // ...
@@ -41,6 +41,12 @@ export default defineNuxtConfig({
   // vue: {  
   //   compilerOptions: {
   //     isCustomElement: (tag) => ['HomeTopSection', 'HomeAboutSection', 'HomeBrandsSection', 'HomeFeatureSection', 'HomeCourseSection', 'HomePlatformSection', 'HomeCtaSection', 'HomeTopicsSection', 'HomeTestimonials', 'HomeTeamSection'].includes(tag),
+  //   },
+  // },
+
+  //  vue: {  
+  //   compilerOptions: {
+  //     isCustomElement: (tag) => ['iconify-icon', 'TopSection', 'FeatureSection', 'CounterSection', 'Testmonials', 'TeamSection', 'FaqSection', 'FeatureSection', 'Testimonials'].includes(tag),
   //   },
   // },
 
