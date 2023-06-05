@@ -1,5 +1,5 @@
 <template>
-    <div class="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat" v-if="head">
+    <div class="breadcrumbs section-padding bg-custom-image bg-cover bg-center bg-no-repeat" v-if="head">
     <div class="container text-center">
       <h2>{{ head }}</h2>
       <nav>
@@ -22,3 +22,9 @@ export default{
     }
 }
 </script>
+
+<style scoped>
+  .bg-custom-image {
+  background-image: url('@/assets/images/all-img/bred.png');
+}
+</style>

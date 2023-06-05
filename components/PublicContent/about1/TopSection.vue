@@ -1,5 +1,5 @@
 <template>
-    <div class="breadcrumbs section-padding bg-[url('assets/images/all-img/bred.png')] bg-cover bg-center bg-no-repeat">
+    <div class="breadcrumbs section-padding bg-custom-image bg-cover bg-center bg-no-repeat">
         <div class="container text-center">
             <h2>About Us</h2>
             <nav>
@@ -68,3 +68,9 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+.bg-custom-image {
+  background-image: url('@/assets/images/all-img/bred.png');
+}
+</style>

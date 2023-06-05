@@ -1,6 +1,5 @@
 <template>
-  <section
-    class=" xl:min-h-screen bg-custom-image bg-cover bg-no-repeat bg-center overflow-hidden">
+  <section class=" xl:min-h-screen bg-custom-image bg-cover bg-no-repeat bg-center overflow-hidden">
     <div class="container relative">
       <div class="max-w-[570px] xl:pt-[297px] md:pt-20 md:pb-20 pt-28 pb-14 xl:pb-40 space-y-8">
         <h1>
@@ -36,8 +35,8 @@
   </section>
 </template>
 
-<style>
-  .bg-custom-image {
-  background-image: url('../../../assets/images/banner/1.png');
+<style scoped>
+.bg-custom-image {
+  background-image: url('@/assets/images/banner/1.png');
 }
 </style>

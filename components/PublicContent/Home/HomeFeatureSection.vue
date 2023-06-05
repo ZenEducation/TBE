@@ -1,5 +1,5 @@
 <template>
-     <div class="feature-area bg-[url('assets/images/all-img/section-bg-1.png')] bg-cover bg-no-repeat bg-center section-padding">
+     <div class="feature-area bg-custom-image bg-cover bg-no-repeat bg-center section-padding">
     <div class="container">
       <div class="text-center">
         <div class="mini-title">Core Features</div>
@@ -44,3 +44,9 @@
   </div>
  
 </template>
+
+<style scoped>
+  .bg-custom-image {
+  background-image: url('@/assets/images/all-img/section-bg-1.png');
+}
+</style>

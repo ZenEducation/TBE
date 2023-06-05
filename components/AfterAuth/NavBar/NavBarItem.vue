@@ -30,7 +30,7 @@ const is = computed(() => {
   return 'div'
 })
 
-const styleStore = useStyleStore()
+const styleStore = useStyleStore()  
 
 const componentClass = computed(() => {
   const base = [
