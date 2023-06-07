@@ -1,32 +1,32 @@
 <template>
-<div class=" section-padding bg-[url('assets/images/all-img/section-bg-11.png')] bg-cover bg-no-repeat">
+<div class=" section-padding bg-[url('assets/images/all-img/section-bg-11.png')] dark:bg-[url('')] bg-cover bg-no-repeat">
     <div class="container">
       <div class="flex items-center flex-wrap flex-y-4">
         <div class="flex-1">
           <div class="mini-title">Popular Courses</div>
-          <div class="column-title ">
+          <div class="column-title dark:text-white">
             Choose Our Top
             <span class="shape-bg">Courses</span>
           </div>
         </div>
         <div class="flex-none">
-          <ul class="filter-list flex xl:space-x-[39px] space-x-4 ">
+          <ul class="filter-list flex xl:space-x-[39px] space-x-4">
             <li data-filter="*" class="active tipy-info" data-tippy-content="New">
               See All
             </li>
-            <li data-filter=".cat-2">
+            <li data-filter=".cat-2" class="dark:text-white">
               Marketing
             </li>
-            <li data-filter=".cat-3">
+            <li data-filter=".cat-3" class="dark:text-white">
               Design
             </li>
-            <li data-filter=".cat-4 ">
+            <li data-filter=".cat-4" class="dark:text-white">
               Finance
             </li>
           </ul>
         </div>
       </div>
-      <div class="flex flex-wrap pt-10 grids">
+      <div class="flex flex-wrap pt-10 grids dark:text-black">
 
 
         <div class="cat-2 cat-3 grid-item xl:w-1/3 lg:w-1/2 w-full px-[15px] mb-[15px]">

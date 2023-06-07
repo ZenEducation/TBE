@@ -1,15 +1,15 @@
 <template>
 
-<div class=" section-padding bg-white bg-[url('assets/images/all-img/section-bg-13.png')]  bg-no-repeat">
+<div class=" section-padding bg-[url('assets/images/all-img/section-bg-13.png')] dark:bg-[url('')] bg-no-repeat">
     <div class="container">
       <div class="text-center mb-14">
         <div class="mini-title">Join With Us</div>
-        <div class="column-title ">
+        <div class="column-title dark:text-white">
           Upcoming
           <span class="shape-bg">Events</span>
         </div>
       </div>
-      <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
+      <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] dark:text-white">
 
 
         <div class=" bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">

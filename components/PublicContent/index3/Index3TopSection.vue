@@ -3,7 +3,7 @@
 <section class=" xl:min-h-screen bg-[url('assets/images/banner/3.png')]  bg-no-repeat bg-center overflow-hidden">
     <div class="container relative">
       <div class="xl:max-w-[570px] lg:max-w-[770px] xl:py-[174px] lg:py-28 md:py-20 py-14">
-        <h1>
+        <h1 class="dark:text-white">
           Classical
           <span class=" text-secondary inline-block bg-[url('../images/banner/shape.svg')]  bg-no-repeat bg-bottom">
                     Education</span>

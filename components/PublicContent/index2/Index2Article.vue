@@ -3,12 +3,12 @@
     <div class="container">
       <div class="text-center">
         <div class="mini-title">Blog & Airticle</div>
-        <div class="column-title ">
+        <div class="column-title dark:text-white">
           Take A Look At The Latest
           <span class="shape-bg">Articles</span>
         </div>
       </div>
-      <div class="grid  xl:grid-cols-2 grid-cols-1 gap-[30px] lg:pt-10  pt-5">
+      <div class="grid  xl:grid-cols-2 grid-cols-1 gap-[30px] lg:pt-10  pt-5 dark:text-black">
 
 
         <div class=" bg-white shadow-box7 rounded-[8px] group transition duration-150 ring-0 hover:ring-2 hover:ring-primary

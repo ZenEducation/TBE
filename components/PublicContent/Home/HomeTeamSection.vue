@@ -3,7 +3,7 @@
     <div class="container">
       <div class="text-center">
         <div class="mini-title">Team Member</div>
-        <div class="column-title ">
+        <div class="column-title dark:text-white">
           Our Expert
           <span class="shape-bg">Instructors</span>
         </div>
@@ -16,7 +16,7 @@
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
             <img src="@/assets/images/all-img/team1.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
-          <div class="course-content">
+          <div class="course-content dark:text-black">
             <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Erics Widget</h4>
             <div>UI/UX Designer</div>
             <ul class="space-x-4 flex justify-center pt-6">
@@ -47,7 +47,7 @@
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
             <img src="@/assets/images/all-img/team2.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
-          <div class="course-content">
+          <div class="course-content dark:text-black">
             <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Daniel Steven</h4>
             <div>UI/UX Designer</div>
             <ul class="space-x-4 flex justify-center pt-6">
@@ -78,7 +78,7 @@
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
             <img src="@/assets/images/all-img/team3.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
-          <div class="course-content">
+          <div class="course-content dark:text-black">
             <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Nelson Decosta</h4>
             <div>UI/UX Designer</div>
             <ul class="space-x-4 flex justify-center pt-6">
@@ -109,7 +109,7 @@
           <div class="w-[170px] h-[170px] rounded-full  relative mx-auto mb-8">
             <img src="@/assets/images/all-img/team4.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
-          <div class="course-content">
+          <div class="course-content dark:text-black">
             <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Selina Gomez</h4>
             <div>UI/UX Designer</div>
             <ul class="space-x-4 flex justify-center pt-6">
@@ -138,12 +138,12 @@
       </div>
     </div>
   </div>
-  <div class=" section-padding bg-[url('../images/all-img/section-bg-5.png')] bg-cover bg-no-repeat bg-center">
+  <div class=" section-padding bg-[url('../images/all-img/section-bg-5.png')] dark:bg-[url('')] bg-cover bg-no-repeat bg-center">
     <div class="container">
       <div class="lg:flex justify-between items-center ">
         <div class="mb-3">
           <div class="mini-title">Team Member</div>
-          <div class="column-title ">
+          <div class="column-title dark:text-white">
             Our Latest
             <span class="shape-bg">Blogs</span>
           </div>
@@ -161,7 +161,7 @@
             <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Education</span>
           </div>
           <div class="course-content p-8">
-            <div class="flex   lg:space-x-10 space-x-5 mb-5">
+            <div class="flex   lg:space-x-10 space-x-5 mb-5 dark:text-black">
               <a class=" flex items-center space-x-2" href="blog-single.html">
                 <img src="@/assets/images/svg/admin.svg" alt="">
                 <span>Admin</span>
@@ -186,7 +186,7 @@
             <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Education</span>
           </div>
           <div class="course-content p-8">
-            <div class="flex   lg:space-x-10 space-x-5 mb-5">
+            <div class="flex   lg:space-x-10 space-x-5 mb-5 dark:text-black">
               <a class=" flex items-center space-x-2" href="blog-single.html">
                 <img src="@/assets/images/svg/admin.svg" alt="">
                 <span>Admin</span>
@@ -211,7 +211,7 @@
             <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Education</span>
           </div>
           <div class="course-content p-8">
-            <div class="flex   lg:space-x-10 space-x-5 mb-5">
+            <div class="flex   lg:space-x-10 space-x-5 mb-5 dark:text-black">
               <a class=" flex items-center space-x-2" href="blog-single.html">
                 <img src="@/assets/images/svg/admin.svg" alt="">
                 <span>Admin</span>

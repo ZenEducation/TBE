@@ -20,7 +20,7 @@
             </div>
             <div class="grid  lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
 
-<EventCard/>
+<EventCard imagename="@/assets/images/all-img/e1.png"/>
 <EventCard/>
 <EventCard/>
 <EventCard/>

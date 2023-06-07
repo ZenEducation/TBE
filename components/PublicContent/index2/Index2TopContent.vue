@@ -2,7 +2,7 @@
     <div class="container relative">
         <div class="xl:max-w-[570px] xl:pt-[129px] lg:py-28 md:py-20 py-14  lg:space-y-10 space-y-6">
             <div
-                class=" lg:text-[77px] lg:leading-[106.4px]  md:text-6xl md:leading-[72px] text-black font-bold text-5xl leading-[62px]">
+                class=" lg:text-[77px] lg:leading-[106.4px]  md:text-6xl md:leading-[72px] text-black font-bold text-5xl leading-[62px] dark:text-white">
                 Better
                 <span class="text-primary">Learning Future</span>
                 Starts With

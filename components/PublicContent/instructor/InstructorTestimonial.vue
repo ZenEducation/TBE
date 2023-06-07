@@ -9,7 +9,7 @@
                 <img src="@/assets/images/all-img/t1.png" alt="" class=" object-cover w-full h-full rounded-md" />
               </div>
             </div>
-            <div class="single-item">
+            <!-- <div class="single-item">
               <div class="xl:h-[593px] lg:h-[400px] h-[150px] lg:w-full w-[150px]  rounded-md">
                 <img src="@/assets/images/all-img/t1.png" alt="" class=" object-cover w-full h-full rounded-md" />
               </div>
@@ -18,7 +18,7 @@
               <div class="xl:h-[593px] lg:h-[400px] h-[150px] lg:w-full w-[150px]  rounded-md">
                 <img src="@/assets/images/all-img/t1.png" alt="" class=" object-cover w-full h-full rounded-md" />
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div>
@@ -42,7 +42,7 @@
                 </div>
               </div>
             </div>
-            <div class="single-item">
+            <!-- <div class="single-item">
               <div>
                 <h3 class=" text-2xl font-bold text-black mb-8">“It’s Truly The Best Solution For Me”</h3>
                 <div class="mb-8">
@@ -65,7 +65,7 @@
                   <span class=" block  font-semibold text-primary">Executive Training Manager</span>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="space-x-5 flex lg:mt-10 mt-8">
             <button class="lg:h-[64px] lg:w-[64px] h-12 w-12 flex flex-col items-center justify-center rounded-md bg-white hover:bg-primary

@@ -3,13 +3,13 @@
     <div class="container">
       <div class="text-center">
         <div class="mini-title">Start Learning From Today</div>
-        <div class="column-title ">
+        <div class="column-title dark:text-white">
           Popular
           <span class="shape-bg">Topics</span>
           To Learn
         </div>
       </div>
-      <div class="grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-[30px] pt-10">
+      <div class="grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-[30px] pt-10 dark:text-black">
 
 
         <a class=" rounded-[8px] transition duration-100 hover:shadow-box hover:bg-white group bg-[#FFE8E8]  text-center px-6

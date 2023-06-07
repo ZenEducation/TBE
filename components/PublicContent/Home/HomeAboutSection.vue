@@ -7,7 +7,7 @@
         </div>
         <div>
           <div class="mini-title">About Edumim</div>
-          <h4 class="column-title ">
+          <h4 class="column-title dark:text-white">
             The Place Where You Can
             <span class="shape-bg">
               Achieve</span>

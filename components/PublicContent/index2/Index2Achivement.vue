@@ -1,9 +1,9 @@
 <template>
-    <div class=" section-padding bg-[url('assets/images/all-img/section-bg-9.png')]  bg-no-repeat bg-center bg-cover ">
+    <div class=" section-padding bg-[url('assets/images/all-img/section-bg-9.png')] dark:bg-[url('')] bg-no-repeat bg-center bg-cover">
         <div class="container">
             <div class="text-center">
                 <div class="mini-title">Some Fun Fact</div>
-                <div class="column-title ">
+                <div class="column-title dark:text-white">
                     Our Great
                     <span class="shape-bg">Achievement</span>
                 </div>
@@ -21,11 +21,11 @@
 
 
                 <div class="flex lg:flex-row flex-col space-y-6 lg:space-y-0 lg:justify-between lg:space-x-8 items-center py-10 px-10
-                rounded-md ">
+                rounded-md">
 
                     <div>
 
-                        <span class=" text-2xl text-black font-bold">Starter</span>
+                        <span class=" text-2xl text-black font-bold dark:text-white">Starter</span>
 
                     </div>
                     <div>
@@ -45,7 +45,7 @@
                         </ul>
                     </div>
                     <div class="w-[150px] text-center">
-                        <span class="block font-bold text-black text-[44px]">Free</span>
+                        <span class="block font-bold text-black text-[44px] dark:text-white">Free</span>
                     </div>
                     <div>
 
@@ -64,7 +64,7 @@
 
                     </div>
                     <div>
-                        <ul class=" space-y-4">
+                        <ul class=" space-y-4 dark:text-black">
                             <li class=" flex space-x-[9px]">
                                 <img src="@/assets/images/svg/check.svg" alt="">
                                 <span>Sed sed felis neque vehicula iaculis</span>
@@ -95,7 +95,7 @@
 
                     <div>
 
-                        <span class=" text-2xl text-black font-bold">Business</span>
+                        <span class=" text-2xl text-black font-bold dark:text-white">Business</span>
 
                     </div>
                     <div>
@@ -115,7 +115,7 @@
                         </ul>
                     </div>
                     <div class="w-[150px] text-center">
-                        <span class="block font-bold text-black text-[44px]">$129.69</span>
+                        <span class="block font-bold text-black text-[44px] dark:text-white">$129.69</span>
                     </div>
                     <div>
 

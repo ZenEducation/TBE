@@ -1,6 +1,6 @@
 <template>
 
-<div class="about-area  section-padding-top pb-16 relative z-[1]">
+<div class="about-area  section-padding-top pb-16 relative">
     <div class=" absolute right-[7%] top-[20%] z-[-1] hidden xl:block"><img src="@/assets/images/icon/h.svg" alt="">
     </div>
     <div class="container">
@@ -10,7 +10,7 @@
         </div>
         <div class="xl:col-span-5 lg:col-span-6 col-span-12 ">
           <div class="mini-title">About Edumim</div>
-          <h4 class="column-title ">
+          <h4 class="column-title dark:text-white">
             You Can Learn Anything, Anytime From
             <span class="shape-bg">
                         Anywhere</span>

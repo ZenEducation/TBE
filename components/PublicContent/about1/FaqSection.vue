@@ -1,5 +1,5 @@
 <template>
-     <div class="section-padding  bg-white bg-custom-image bg-bottom  bg-cover bg-no-repeat">
+     <div class="section-padding  bg-white bg-[url('@/assets/images/all-img/section-bg-15.png')] bg-bottom  bg-cover bg-no-repeat">
     <div class="container">
       <div class="grid lg:grid-cols-2 grid-cols-1 gap-[30px]">
         <div>
@@ -60,9 +60,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-.bg-custom-image {
-  background-image: url('@/assets/images/all-img/section-bg-15.png');
-}
-</style>

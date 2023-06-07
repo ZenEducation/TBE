@@ -50,11 +50,17 @@ export default defineNuxtConfig({
   //   },
   // },
 
-   vue: {  
+  //  vue: {  
+  //   compilerOptions: {
+  //     isCustomElement: (tag) => ['iconify-icon'].includes(tag),
+  //   },
+  // },
+
+  vue: {
     compilerOptions: {
-      isCustomElement: (tag) => ['iconify-icon'].includes(tag),
+        isCustomElement: (tag) => tag === 'iconify-icon',
     },
-  },
+},
 
   //
   plugins: [{ src: "@/plugins/amplify.ts", mode: "client" }],

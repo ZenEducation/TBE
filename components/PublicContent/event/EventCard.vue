@@ -28,3 +28,12 @@
         </div>
     </div>
 </template>
+
+<script setup>
+defineProps({
+    menu: {
+      imagepath: String,
+      default: () => "@/assets/images/all-img/e1.png",
+    },
+})
+</script>

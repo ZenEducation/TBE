@@ -3,7 +3,7 @@
     <div class="container">
       <div class="text-center">
         <div class="mini-title">Team Member</div>
-        <div class="column-title ">
+        <div class="column-title dark:text-white">
           Our Expert
           <span class="shape-bg">Instructors</span>
         </div>

@@ -10,9 +10,12 @@
   import HomeTestimonials from '@/components/PublicContent/Home/HomeTestimonials.vue'
   import HomeTeamSection from '@/components/PublicContent/Home/HomeTeamSection.vue'
   import CreateBlog from '@/components/AfterAuth/Blog/CreateBlog.vue'
+  
+  import 'iconify-icon';
 </script>
 
 <template >
+  <div class="dark:bg-[#111] dark:text-white">
     <HomeTopSection />
     <HomeAboutSection />
     <HomeBrandsSection />
@@ -23,7 +26,8 @@
     <HomeTopicsSection />
     <HomeTestimonials/>
     <HomeTeamSection />
-    <CreateBlog/>
+    <!-- <CreateBlog/> -->
+  </div>
     
 </template>
 

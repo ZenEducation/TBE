@@ -1,5 +1,7 @@
 <template>
-    <TopNav head="Blog"/>
-    <BlogList/>
-    <!-- <BlogSidebar/> -->
+    <div class="dark:bg-[#111] dark:text-white">
+        <TopNav head="Blog" />
+        <BlogList />
+        <!-- <BlogSidebar/> -->
+    </div>
 </template>

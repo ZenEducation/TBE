@@ -3,7 +3,7 @@
 <div class="brands-area pt-20 pb-14 bg-black ">
     <div class="container">
 
-      <ul class="flex flex-wrap items-center lg:justify-between justify-center  ">
+      <ul class="flex flex-wrap items-center lg:justify-between justify-center">
 
         <li class=" mb-6 last:mb-0 mr-6 last:mr-0  transition duration-150  ">
           <a href="#" class=" block">

@@ -1,11 +1,11 @@
 <template>
 
-<div class="section-padding  bg-white bg-[url('assets/images/all-img/section-bg-15.png')] bg-bottom  bg-cover bg-no-repeat">
+<div class="section-padding bg-[url('assets/images/all-img/section-bg-15.png')] dark:bg-[url('')] bg-bottom  bg-cover bg-no-repeat">
     <div class="container">
       <div class="grid lg:grid-cols-2 grid-cols-1 gap-[30px]">
         <div>
           <div class="mini-title">Frequently Asked Question</div>
-          <div class="column-title ">
+          <div class="column-title dark:text-white">
             General
             <span class="shape-bg">Questions</span>
           </div>

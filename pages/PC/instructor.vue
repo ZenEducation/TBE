@@ -2,6 +2,8 @@
 import { InstructorTestimonial } from '~~/.nuxt/components';
 
 <template>
-    <InstructorTopSection/>
-    <InstructorTestimonial/>
+    <div class="dark:bg-[#111] dark:text-white">
+        <InstructorTopSection />
+        <InstructorTestimonial />
+    </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div class="brands-area section-padding-bottom ">
     <div class="container">
-      <div class="text-center text-black text-2xl font-medium mb-[50px]">
+      <div class="text-center text-black text-2xl font-medium mb-[50px] dark:text-white">
         Trusted By 1k+ Company Arround The World!
       </div>
 
