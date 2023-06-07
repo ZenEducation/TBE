@@ -19,7 +19,7 @@
               <li class="flex">
                 <div class="flex-none mr-6">
                   <div class="">
-                    <img src="../assets/images/svg/mail.svg" alt="" class="">
+                    <img src="@/assets/images/svg/mail.svg" alt="" class="">
                   </div>
                 </div>
                 <div class="flex-1">
@@ -30,7 +30,7 @@
               <li class="flex">
                 <div class="flex-none mr-6">
                   <div class="">
-                    <img src="../assets/images/svg/call.svg" alt="" class="">
+                    <img src="@/assets/images/svg/call.svg" alt="" class="">
                   </div>
                 </div>
                 <div class="flex-1">
@@ -41,7 +41,7 @@
               <li class="flex">
                 <div class="flex-none mr-6">
                   <div class="">
-                    <img src="../assets/images/svg/map.svg" alt="" class="">
+                    <img src="@/assets/images/svg/map.svg" alt="" class="">
                   </div>
                 </div>
                 <div class="flex-1">
