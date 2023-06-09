@@ -72,14 +72,16 @@
     }
   }
 
-  window.addEventListener('keydown', (e) => {
-    if (
-      e.key === 'Escape' &&
-      (secondaryMenuItem.value || !isPrimaryMenuCompact.value)
-    ) {
-      overlayClick()
-    }
-  })
+  if (process.client) {
+    window.addEventListener('keydown', (e) => {
+      if (
+        e.key === 'Escape' &&
+        (secondaryMenuItem.value || !isPrimaryMenuCompact.value)
+      ) {
+        overlayClick()
+      }
+    })
+}
 
   const router = useRouter()
 

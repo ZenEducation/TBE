@@ -92,9 +92,21 @@
             </div>
 
             <div class="flex-none flex space-x-[18px]">
+            <div class="flex items-center dark-mode-switch">
+              <button
+                class="flex items-center justify-center w-12 h-12 rounded-full dark:border-gray-600 cursor-pointer focus:outline-none"
+                @click="toggleDarkMode">
+                <img v-if="darkMode" class="w-8 h-8 transition duration-1000 ease-in-out transform rotate-180"
+                  src="@/assets/images/svg/sun.svg" alt="Sun Icon" />
+                <img v-else class="w-10 h-10 transition duration-1000 ease-in-out transform rotate-45"
+                  src="@/assets/images/svg/moon.svg" alt="Moon Icon" />
+              </button>
+            </div>
+
               <div class="hidden lg:block">
                 <NuxtLink to="#" class="btn btn-primary py-[15px] px-8">Start Free Trial</NuxtLink>
               </div>
+              
               <div class="block lg:hidden">
                 <button @click="handleSidebarToggle" type="button"
                   class=" text-3xl md:w-[56px] h-10 w-10 md:h-[56px] rounded bg-[#F8F8F8] flex flex-col items-center justify-center menu-click">
@@ -103,16 +115,6 @@
               </div>
             </div>
 
-            <div class="dark-mode-switch">
-              <button
-                class="flex items-center justify-center w-12 h-12 rounded-full dark:border-gray-600 cursor-pointer focus:outline-none"
-                @click="toggleDarkMode">
-                <img v-if="darkMode" class="w-8 h-8 transition duration-300 ease-in-out transform rotate-0"
-                  src="@/assets/images/svg/sun.svg" alt="Sun Icon" />
-                <img v-else class="w-10 h-10 transition duration-300 ease-in-out transform rotate-45"
-                  src="@/assets/images/svg/moon.svg" alt="Moon Icon" />
-              </button>
-            </div>
 
           </div>
         </div>
