@@ -24,7 +24,7 @@
                 </div>
               </div>
               <div class="flex-1">
-                <h4 class=" text-xl mb-1">Our Mission</h4>
+                <h4 class=" text-xl mb-1 dark:text-white">Our Mission</h4>
                 <div>There are many variations of passages of the Lorem Ipsum available.</div>
               </div>
             </li>
@@ -36,7 +36,7 @@
                 </div>
               </div>
               <div class="flex-1">
-                <h4 class=" text-xl mb-1">Our Vision</h4>
+                <h4 class=" text-xl mb-1 dark:text-white">Our Vision</h4>
                 <div>There are many variations of passages of the Lorem Ipsum available.</div>
               </div>
             </li>

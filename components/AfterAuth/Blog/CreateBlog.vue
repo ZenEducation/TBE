@@ -16,17 +16,17 @@
   </template>
   
   <script>
-  import { API, graphqlOperation } from 'aws-amplify'
+  // import { API, graphqlOperation } from 'aws-amplify'
 //   import { createBlog } from '../graphql/mutations'
   
-  export default {
-    data() {
-      return {
-        title: '',
-        content: ''
-      }
-    },
-    methods: {
+  // export default {
+  //   data() {
+  //     return {
+  //       title: '',
+  //       content: ''
+  //     }
+  //   },
+    // methods: {
     //   async createBlog() {
     //     try {
     //       const input = {
@@ -39,8 +39,8 @@
     //       console.error('Error creating blog post:', error)
     //     }
     //   }
-    }
-  }
+    // }
+  // }
   </script>
   
   <style>

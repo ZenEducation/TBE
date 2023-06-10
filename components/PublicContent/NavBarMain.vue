@@ -314,7 +314,7 @@ const toggleDarkMode = () => {
 
 .scrolledDark {
   background-color: black;
-  box-shadow: 0 18px 36px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 18px 36px 0 rgba(255, 255, 255, .1);
   transition: all 0.5s;
 }
 .my-element::before {
