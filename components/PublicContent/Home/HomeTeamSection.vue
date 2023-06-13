@@ -1,5 +1,5 @@
 <template>
-    <div class=" section-padding">
+  <div class=" section-padding">
     <div class="container">
       <div class="text-center">
         <div class="mini-title">Team Member</div>
@@ -17,7 +17,7 @@
             <img src="@/assets/images/all-img/team1.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content dark:text-black">
-            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Erics Widget</h4>
+            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold dark:text-black">Erics Widget</h4>
             <div>UI/UX Designer</div>
             <ul class="space-x-4 flex justify-center pt-6">
               <li>
@@ -48,7 +48,7 @@
             <img src="@/assets/images/all-img/team2.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content dark:text-black">
-            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Daniel Steven</h4>
+            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold dark:text-black">Daniel Steven</h4>
             <div>UI/UX Designer</div>
             <ul class="space-x-4 flex justify-center pt-6">
               <li>
@@ -79,7 +79,7 @@
             <img src="@/assets/images/all-img/team3.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content dark:text-black">
-            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Nelson Decosta</h4>
+            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold dark:text-black">Nelson Decosta</h4>
             <div>UI/UX Designer</div>
             <ul class="space-x-4 flex justify-center pt-6">
               <li>
@@ -110,7 +110,7 @@
             <img src="@/assets/images/all-img/team4.png" alt="" class=" w-full h-full object-cover rounded-full">
           </div>
           <div class="course-content dark:text-black">
-            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Selina Gomez</h4>
+            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold dark:text-black">Selina Gomez</h4>
             <div>UI/UX Designer</div>
             <ul class="space-x-4 flex justify-center pt-6">
               <li>
@@ -138,7 +138,8 @@
       </div>
     </div>
   </div>
-  <div class=" section-padding bg-[url('../images/all-img/section-bg-5.png')] dark:bg-[url('')] bg-cover bg-no-repeat bg-center">
+  <div
+    class=" section-padding bg-[url('../images/all-img/section-bg-5.png')] dark:bg-[url('')] bg-cover bg-no-repeat bg-center">
     <div class="container">
       <div class="lg:flex justify-between items-center ">
         <div class="mb-3">
@@ -158,7 +159,8 @@
         <div class=" bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
           <div class="course-thumb h-[260px] rounded-t-[8px]  relative">
             <img src="@/assets/images/all-img/blog-1.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
-            <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Education</span>
+            <span
+              class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Education</span>
           </div>
           <div class="course-content p-8">
             <div class="flex   lg:space-x-10 space-x-5 mb-5 dark:text-black">
@@ -171,19 +173,21 @@
                 <span>Jan 29, 2022</span>
               </a>
             </div>
-            <h4 class=" text-xl mb-5 font-bold">
+            <h4 class=" text-xl mb-5 font-bold dark:text-black">
               <a href="blog-single.html" class=" hover:text-primary transition duration-150">
                 Professional Mobile Painting and Sculpting
               </a>
             </h4>
-            <a href="blog-single.html" class=" text-black font-semibold hover:underline transition duration-150">Read More</a>
+            <a href="blog-single.html" class=" text-black font-semibold hover:underline transition duration-150">Read
+              More</a>
           </div>
         </div>
 
         <div class=" bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
           <div class="course-thumb h-[260px] rounded-t-[8px]  relative">
             <img src="@/assets/images/all-img/blog-2.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
-            <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Education</span>
+            <span
+              class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Education</span>
           </div>
           <div class="course-content p-8">
             <div class="flex   lg:space-x-10 space-x-5 mb-5 dark:text-black">
@@ -196,19 +200,21 @@
                 <span>Jan 29, 2022</span>
               </a>
             </div>
-            <h4 class=" text-xl mb-5 font-bold">
+            <h4 class=" text-xl mb-5 font-bold dark:text-black">
               <a href="blog-single.html" class=" hover:text-primary transition duration-150">
                 Professional Ceramic Moulding for Beginners
               </a>
             </h4>
-            <a href="blog-single.html" class=" text-black font-semibold hover:underline transition duration-150">Read More</a>
+            <a href="blog-single.html" class=" text-black font-semibold hover:underline transition duration-150">Read
+              More</a>
           </div>
         </div>
 
         <div class=" bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
           <div class="course-thumb h-[260px] rounded-t-[8px]  relative">
             <img src="@/assets/images/all-img/blog-3.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
-            <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Education</span>
+            <span
+              class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Education</span>
           </div>
           <div class="course-content p-8">
             <div class="flex   lg:space-x-10 space-x-5 mb-5 dark:text-black">
@@ -221,18 +227,16 @@
                 <span>Jan 29, 2022</span>
               </a>
             </div>
-            <h4 class=" text-xl mb-5 font-bold">
+            <h4 class=" text-xl mb-5 font-bold dark:text-black">
               <a href="blog-single.html" class=" hover:text-primary transition duration-150">
                 Education Is About Create Leaders For Tomorrow
               </a>
             </h4>
-            <a href="blog-single.html" class=" text-black font-semibold hover:underline transition duration-150">Read More</a>
+            <a href="blog-single.html" class=" text-black font-semibold hover:underline transition duration-150">Read
+              More</a>
           </div>
         </div>
 
-      </div>
     </div>
   </div>
- 
-  
-</template>
+</div></template>

@@ -18,7 +18,7 @@
             <img src="@/assets/images/icon/t1.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
           <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Data Science</h4>
+            <h4 class="dark:text-black text-2xl  mb-2 font-bold">Data Science</h4>
             <p>68 Courses</p>
           </div>
         </a>
@@ -29,7 +29,7 @@
             <img src="@/assets/images/icon/t2.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
           <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">UI/UX Design</h4>
+            <h4 class="dark:text-black text-2xl  mb-2 font-bold">UI/UX Design</h4>
             <p>UI/UX Design</p>
           </div>
         </a>
@@ -40,7 +40,7 @@
             <img src="@/assets/images/icon/t3.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
           <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Modern Physics</h4>
+            <h4 class="dark:text-black text-2xl  mb-2 font-bold">Modern Physics</h4>
             <p>68 Courses</p>
           </div>
         </a>
@@ -51,7 +51,7 @@
             <img src="@/assets/images/icon/t4.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
           <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Music Production</h4>
+            <h4 class="dark:text-black text-2xl  mb-2 font-bold">Music Production</h4>
             <p>68 Courses</p>
           </div>
         </a>
@@ -62,7 +62,7 @@
             <img src="@/assets/images/icon/t5.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
           <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Data Science</h4>
+            <h4 class="dark:text-black text-2xl  mb-2 font-bold">Data Science</h4>
             <p>45 Courses</p>
           </div>
         </a>
@@ -73,7 +73,7 @@
             <img src="@/assets/images/icon/t6.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
           <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Finances</h4>
+            <h4 class="dark:text-black text-2xl  mb-2 font-bold">Finances</h4>
             <p>68 Courses</p>
           </div>
         </a>
@@ -84,7 +84,7 @@
             <img src="@/assets/images/icon/t7.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
           <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Global Science</h4>
+            <h4 class="dark:text-black text-2xl  mb-2 font-bold">Global Science</h4>
             <p>75 Courses</p>
           </div>
         </a>
@@ -95,7 +95,7 @@
             <img src="@/assets/images/icon/t8.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
           <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Game Design</h4>
+            <h4 class="dark:text-black text-2xl  mb-2 font-bold">Game Design</h4>
             <p>12 Courses</p>
           </div>
         </a>

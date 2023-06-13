@@ -5,9 +5,8 @@ const styleStore = useStyleStore()
 
 <template>
   <div class="font-body" :class="{ dark: styleStore.darkMode }">
-    <NavBarMain />
     <NuxtPage />
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 

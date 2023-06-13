@@ -1,11 +1,12 @@
 <template>
-     <div class="nav-tab-wrapper tabs  section-padding">
+  <div class="nav-tab-wrapper tabs  section-padding">
     <div class="container">
       <div class="grid grid-cols-12 gap-[30px]">
         <div class="lg:col-span-8 col-span-12">
           <div class="single-course-details">
             <div class="xl:h-[470px] h-[350px] mb-10 course-main-thumb">
-              <img src="@/assets/images/all-img/single-course-thumb.png" alt="" class=" rounded-md object-fut w-full h-full block">
+              <img src="@/assets/images/all-img/single-course-thumb.png" alt=""
+                class=" rounded-md object-fut w-full h-full block">
             </div>
             <div class=" mb-6">
               <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white ">Data Science</span>
@@ -20,56 +21,53 @@
                 </div>
                 <div class="flex-1">
                   <span class=" text-secondary  ">Trainer
-                                        <a href="#" class=" text-black">
-                                            : Md Shamim Hossain</a>
-                                    </span>
+                    <a href="#" class=" text-black dark:text-white">
+                      : Md Shamim Hossain</a>
+                  </span>
                 </div>
               </div>
               <div>
                 <span class=" text-secondary  ">Last Update:
-                                    <a href="#" class=" text-black">
-                                        10 February, 2022</a>
-                                </span>
+                  <a href="#" class=" text-black dark:text-white">
+                    10 February, 2022</a>
+                </span>
               </div>
             </div>
-            <div class="nav-tab-wrapper mt-12">
+            <div class="nav-tab-wrapper mt-12 dark:text-black">
               <ul id="tabs-nav" class=" course-tab mb-8">
-                <li>
-                  <a href="#tab1">
-                    Overview
-                  </a>
-                </li>
-                <li>
-                  <a href="#tab2">
-                    Carriculum
-                  </a>
-                </li>
-                <li>
-                  <a href="#tab3">
-                    Instructor
-                  </a>
-                </li>
-                <li>
-                  <a href="#tab4">
-                    Reviews
-                  </a>
-                </li>
+                <Button class="tab-btn" @click="toggleTab(1)" :class="tabIndex === 1 ? 'active' : ''">
+                  Overview
+                </Button>
+                <Button class="tab-btn" @click="toggleTab(2)" :class="tabIndex === 2 ? 'active' : ''">
+                  Curriculum
+                </Button>
+                <Button class="tab-btn" @click="toggleTab(3)" :class="tabIndex === 3 ? 'active' : ''">
+                  Instructor
+                </Button>
+                <Button class="tab-btn" @click="toggleTab(4)" :class="tabIndex === 4 ? 'active' : ''">
+                  Reviews
+                </Button>
               </ul>
               <div id="tabs-content">
-                <div id="tab1" class="tab-content">
+                <div id="tab1" class="tab-content" :class="tabIndex === 1 ? '' : 'hidden'">
 
                   <div>
                     <h3 class=" text-2xl">Course Description</h3>
-                    <p class="mt-4">
-                      This tutorial will help you learn quickly and thoroughly. Lorem ipsum, or lipsum as it sometimes known, is dummy text
-                      used in laying out print, graphic or web designs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
+                    <p class="mt-4 dark:text-white">
+                      This tutorial will help you learn quickly and thoroughly. Lorem ipsum, or lipsum as it sometimes
+                      known, is dummy text
+                      used in laying out print, graphic or web designs. Lorem ipsum dolor sit amet, consectetuer
+                      adipiscing elit. Donec odio.
                       Quisque volutpat mattis eros.
-                      <br/> <br/> You’ll be exposed to principles and strategies, but, more importantly, you’ll learn how actually apply these
-        abstract concepts by coding three different websites for three very different the audiences. Lorem ipsum is dummy text
-        used in laying out print, graphic or web designs Lorem ipsum blinding shot chinwag knees.
+                      <br /><br />
+                      You’ll be exposed to principles and strategies, but, more importantly, you’ll learn
+                      how actually apply these
+                      abstract concepts by coding three different websites for three very different the audiences. Lorem
+                      ipsum is dummy text
+                      used in laying out print, graphic or web designs Lorem ipsum blinding shot chinwag knees.
                     </p>
                     <div class="bg-[#F8F8F8] space-y-6 p-8 rounded-md my-8">
-                      <h4 class=" text-2xl">What You will Learn?</h4>
+                      <h4 class=" text-2xl dark:text-black">What You will Learn?</h4>
                       <ul class=" grid sm:grid-cols-2 grid-cols-1 gap-6">
 
                         <li class=" flex space-x-3">
@@ -115,67 +113,67 @@
                       <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 mt-5">
                         <div class=" bg-white  rounded px-5 py-[18px] flex   shadow-box2 space-x-[10px] items-center">
                           <span class="flex-none">
-                    <img src="@/assets/images/icon/laptop.svg" alt="">
-                </span>
+                            <img src="@/assets/images/icon/laptop.svg" alt="">
+                          </span>
                           <span class="flex-1 text-black">
-                    Computer/Mobile
-                </span>
+                            Computer/Mobile
+                          </span>
                         </div>
                         <div class=" bg-white  rounded px-5 py-[18px] flex  shadow-box2 space-x-[10px] items-center">
                           <span class="flex-none">
-                    <img src="@/assets/images/icon/pencil.svg" alt="">
-                </span>
+                            <img src="@/assets/images/icon/pencil.svg" alt="">
+                          </span>
                           <span class="flex-1 text-black">
-                    Paper & Pencil
-                </span>
+                            Paper & Pencil
+                          </span>
                         </div>
                         <div class=" bg-white  rounded px-5 py-[18px] flex  shadow-box2 space-x-[10px] items-center">
                           <span class="flex-none">
-                    <img src="@/assets/images/icon/wifi.svg" alt="">
-                </span>
+                            <img src="@/assets/images/icon/wifi.svg" alt="">
+                          </span>
                           <span class="flex-1 text-black">
-                   Internet Connect
-                </span>
+                            Internet Connect
+                          </span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div id="tab2" class="tab-content">
-
-
+                <div id="tab2" class="tab-content" :class="tabIndex === 2 ? '' : 'hidden'">
                   <div>
                     <h3 class=" text-2xl">Course Description</h3>
-                    <div class="md:flex md:space-x-10  space-x-3 flex-wrap mt-4 mb-6">
+                    <div class="md:flex md:space-x-10  space-x-3 flex-wrap mt-4 mb-6 dark:text-white">
                       <span>Level Beginner</span>
                       <span>12 Lectures</span>
                       <span>Total: 5 Hours 56 Minutes 24 Seconds</span>
                     </div>
                     <ul class="list  course-accrodain space-y-6">
-                      <li class="open">
-                        <button type="button" class="accrodain-button">
+                      <li class="" :class="dropdownIndex === 1 ? 'open' : ''">
+                        <button @click="toggleDropdown(1)" type="button" class="accrodain-button">
                           <span class="icon-pm fle x-none"></span>
                           <span class=" flex-1">Introduction</span>
                           <div class="flex-none extra-text  hidden sm:block">
                             3 Lectures, 34:51 min
                           </div>
                         </button>
-                        <div class="content">
+                        <div class="content" :class="dropdownIndex === 1 ? '' : 'hidden'">
                           <div class=" text-xl font-semibold text-black mb-2">Intermediate Level</div>
                           <p>
-                            This tutorial will help you learn quickly and thoroughly. Lorem ipsum is dummy text used in laying out print, graphic or
+                            This tutorial will help you learn quickly and thoroughly. Lorem ipsum is dummy text used in
+                            laying out print, graphic or
                             web designs
                           </p>
                           <div class=" text-xl font-semibold text-black mb-2 mt-6">2 Videos, 1 Audio, 1 Notebook</div>
                           <div class=" mt-8 ">
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/camera.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/camera.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Getting Started and Introductions
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -185,13 +183,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/camera.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/camera.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Getting Started and Introductions
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -201,13 +200,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/headphone.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/headphone.svg" alt="">
+                                </span>
                                 <span class="flex-1">Audio: Connectig Throgh Technology
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -215,13 +215,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/file.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/file.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Connectig Throgh Technology
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -232,30 +233,32 @@
                           </div>
                         </div>
                       </li>
-                      <li>
-                        <button type="button" class="accrodain-button">
+                      <li class="" :class="dropdownIndex === 2 ? 'open' : ''">
+                        <button @click="toggleDropdown(2)" type="button" class="accrodain-button">
                           <span class="icon-pm fle x-none"></span>
                           <span class=" flex-1">Getting Started</span>
                           <div class=" flex-none extra-text hidden sm:block ">
                             3 Lectures, 34:51 min
                           </div>
                         </button>
-                        <div class="content hidden">
+                        <div class="content" :class="dropdownIndex === 2 ? '' : 'hidden'">
                           <div class=" text-xl font-semibold text-black mb-2">Intermediate Level</div>
                           <p>
-                            This tutorial will help you learn quickly and thoroughly. Lorem ipsum is dummy text used in laying out print, graphic or
+                            This tutorial will help you learn quickly and thoroughly. Lorem ipsum is dummy text used in
+                            laying out print, graphic or
                             web designs
                           </p>
                           <div class=" text-xl font-semibold text-black mb-2 mt-6">2 Videos, 1 Audio, 1 Notebook</div>
                           <div class=" mt-8 ">
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/camera.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/camera.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Getting Started and Introductions
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -265,13 +268,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/camera.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/camera.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Getting Started and Introductions
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -281,13 +285,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/headphone.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/headphone.svg" alt="">
+                                </span>
                                 <span class="flex-1">Audio: Connectig Throgh Technology
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -295,13 +300,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/file.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/file.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Connectig Throgh Technology
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -312,30 +318,32 @@
                           </div>
                         </div>
                       </li>
-                      <li>
-                        <button type="button" class="accrodain-button">
+                      <li class="" :class="dropdownIndex === 3 ? 'open' : ''">
+                        <button @click="toggleDropdown(3)" type="button" class="accrodain-button">
                           <span class="icon-pm fle x-none"></span>
                           <span class=" flex-1">Start from Sketch Design</span>
                           <div class=" flex-none extra-text hidden sm:block ">
                             3 Lectures, 34:51 min
                           </div>
                         </button>
-                        <div class="content hidden">
+                        <div class="content" :class="dropdownIndex === 3 ? '' : 'hidden'">
                           <div class=" text-xl font-semibold text-black mb-2">Intermediate Level</div>
                           <p>
-                            This tutorial will help you learn quickly and thoroughly. Lorem ipsum is dummy text used in laying out print, graphic or
+                            This tutorial will help you learn quickly and thoroughly. Lorem ipsum is dummy text used in
+                            laying out print, graphic or
                             web designs
                           </p>
                           <div class=" text-xl font-semibold text-black mb-2 mt-6">2 Videos, 1 Audio, 1 Notebook</div>
                           <div class=" mt-8 ">
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/camera.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/camera.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Getting Started and Introductions
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -345,13 +353,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/camera.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/camera.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Getting Started and Introductions
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -361,13 +370,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/headphone.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/headphone.svg" alt="">
+                                </span>
                                 <span class="flex-1">Audio: Connectig Throgh Technology
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -375,13 +385,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/file.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/file.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Connectig Throgh Technology
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -392,30 +403,32 @@
                           </div>
                         </div>
                       </li>
-                      <li>
-                        <button type="button" class="accrodain-button">
+                      <li class="" :class="dropdownIndex === 4 ? 'open' : ''">
+                        <button @click="toggleDropdown(4)" type="button" class="accrodain-button">
                           <span class="icon-pm fle x-none"></span>
                           <span class=" flex-1">Getting Help & Support in Seller Central</span>
                           <div class=" flex-none extra-text hidden sm:block ">
                             3 Lectures, 34:51 min
                           </div>
                         </button>
-                        <div class="content hidden">
+                        <div class="content" :class="dropdownIndex === 4 ? '' : 'hidden'">
                           <div class=" text-xl font-semibold text-black mb-2">Intermediate Level</div>
                           <p>
-                            This tutorial will help you learn quickly and thoroughly. Lorem ipsum is dummy text used in laying out print, graphic or
+                            This tutorial will help you learn quickly and thoroughly. Lorem ipsum is dummy text used in
+                            laying out print, graphic or
                             web designs
                           </p>
                           <div class=" text-xl font-semibold text-black mb-2 mt-6">2 Videos, 1 Audio, 1 Notebook</div>
                           <div class=" mt-8 ">
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/camera.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/camera.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Getting Started and Introductions
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -425,13 +438,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/camera.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/camera.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Getting Started and Introductions
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -441,13 +455,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/headphone.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/headphone.svg" alt="">
+                                </span>
                                 <span class="flex-1">Audio: Connectig Throgh Technology
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -455,13 +470,14 @@
                               </div>
                             </a>
 
-                            <a href="#" class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
+                            <a href="#"
+                              class=" flex items-start pb-4 mb-4 last:mb-0 last:pb-0 border-b border-[#ECECEC] last:border-0">
                               <div class="flex-1 flex">
                                 <span class="flex-none  mr-2">
-                                <img src="@/assets/images/icon/file.svg" alt="">
-                            </span>
+                                  <img src="@/assets/images/icon/file.svg" alt="">
+                                </span>
                                 <span class="flex-1">Video: Connectig Throgh Technology
-                            </span>
+                                </span>
                               </div>
                               <div class="flex-none flex space-x-3">
 
@@ -477,7 +493,7 @@
                     </ul>
                   </div>
                 </div>
-                <div id="tab3" class="tab-content">
+                <div id="tab3" class="tab-content" :class="tabIndex === 3 ? '' : 'hidden'">
 
 
                   <div class=" bg-[#F8F8F8] rounded-md p-8">
@@ -487,7 +503,7 @@
                       </div>
                       <div class="flex-1">
                         <div class="max-w-[300px]">
-                          <h4 class=" text-[34px] font-bold leading-[51px]">Daniel Smith</h4>
+                          <h4 class=" text-[34px] font-bold leading-[51px] dark:text-black">Daniel Smith</h4>
                           <div class=" text-primary mb-6">
                             User Experience Designer
                           </div>
@@ -516,7 +532,7 @@
 
                             <li class=" flex space-x-3">
                               <img src="@/assets/images/icon/like.svg" alt="" />
-                              <div>
+                              <div class="">
                                 4.9 Average Rating
                               </div>
                             </li>
@@ -554,17 +570,20 @@
                       </div>
                     </div>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                      by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of
-                      Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                      alteration in some form,
+                      by injected humour, or randomised words which don't look even slightly believable. If you are going
+                      to use a passage of
+                      Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All
+                      the Lorem Ipsum
                       generators on the Internet tend.
                     </p>
                   </div>
                 </div>
-                <div id="tab4" class="tab-content">
+                <div id="tab4" class="tab-content" :class="tabIndex === 4 ? '' : 'hidden'">
 
                   <div>
-                    <div class="grid grid-cols-12 gap-5">
+                    <div class="grid grid-cols-12 gap-5 dark:text-white">
                       <div class="md:col-span-8 col-span-12">
 
                         <div class="flex items-center space-x-4  mb-5 last:mb-0 ">
@@ -586,8 +605,10 @@
                           </div>
                           <div class="flex-1">
                             <div class="progressbar-group flex items-center space-x-4">
-                              <div class="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative flex-1">
-                                <div class="ani  h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 " data-progress="40"></div>
+                              <div
+                                class="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative flex-1 dark:bg-white">
+                                <div class="ani h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 "
+                                  data-progress="40"></div>
                               </div>
                               <div class="flex-none">
                                 <span class=" block mb-2  font-semibold">40%</span>
@@ -615,8 +636,10 @@
                           </div>
                           <div class="flex-1">
                             <div class="progressbar-group flex items-center space-x-4">
-                              <div class="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative flex-1">
-                                <div class="ani  h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 " data-progress="10"></div>
+                              <div
+                                class="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative flex-1 dark:bg-white">
+                                <div class="ani  h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 "
+                                  data-progress="10"></div>
                               </div>
                               <div class="flex-none">
                                 <span class=" block mb-2  font-semibold">10%</span>
@@ -644,8 +667,10 @@
                           </div>
                           <div class="flex-1">
                             <div class="progressbar-group flex items-center space-x-4">
-                              <div class="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative flex-1">
-                                <div class="ani  h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 " data-progress="0"></div>
+                              <div
+                                class="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative flex-1 dark:bg-white">
+                                <div class="ani  h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 "
+                                  data-progress="0"></div>
                               </div>
                               <div class="flex-none">
                                 <span class=" block mb-2  font-semibold">0%</span>
@@ -673,8 +698,10 @@
                           </div>
                           <div class="flex-1">
                             <div class="progressbar-group flex items-center space-x-4">
-                              <div class="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative flex-1">
-                                <div class="ani  h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 " data-progress="0"></div>
+                              <div
+                                class="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative flex-1 dark:bg-white">
+                                <div class="ani  h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 "
+                                  data-progress="0"></div>
                               </div>
                               <div class="flex-none">
                                 <span class=" block mb-2  font-semibold">0%</span>
@@ -702,8 +729,10 @@
                           </div>
                           <div class="flex-1">
                             <div class="progressbar-group flex items-center space-x-4">
-                              <div class="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative flex-1">
-                                <div class="ani  h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 " data-progress="0"></div>
+                              <div
+                                class="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative flex-1 dark:bg-white">
+                                <div class="ani  h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 "
+                                  data-progress="0"></div>
                               </div>
                               <div class="flex-none">
                                 <span class=" block mb-2  font-semibold">0%</span>
@@ -716,8 +745,9 @@
 
 
                       <div class="md:col-span-4 col-span-12">
-                        <div class="bg-white min-h-[219px] p-6 flex flex-col justify-center items-center shadow-box7 rounded space-y-3">
-                          <h2>
+                        <div
+                          class="bg-white min-h-[219px] p-6 flex flex-col justify-center items-center shadow-box7 rounded space-y-3">
+                          <h2 class=" dark:text-black">
                             4.9
                           </h2>
                           <div class="flex space-x-3">
@@ -727,13 +757,13 @@
                             <iconify-icon icon="heroicons:star-20-solid" class=" text-tertiary"></iconify-icon>
                             <iconify-icon icon="heroicons:star-20-solid" class=" text-tertiary"></iconify-icon>
                           </div>
-                          <span class=" block">(2 Review)</span>
+                          <span class="dark:text-black block">(2 Review)</span>
                         </div>
                       </div>
 
                     </div>
                     <!-- review comments -->
-                    <div class=" mt-8">
+                    <div class=" mt-8 dark:text-white">
                       <h4 class=" text-xl font-bold text-black">Reviews</h4>
                       <ul class=" list space-y-6 mt-6">
                         <li class=" flex space-x-6 ">
@@ -755,7 +785,7 @@
                               majority have suffered alteration.
                             </p>
                             <div class="author mt-4">
-                              <span class="block text-xl font-bold text-black">Daniel Smith</span>
+                              <span class="block text-xl font-bold text-black dark:text-white">Daniel Smith</span>
                               <span class="block">Jan 24, 2022</span>
                             </div>
                           </div>
@@ -779,7 +809,7 @@
                               majority have suffered alteration.
                             </p>
                             <div class="author mt-4">
-                              <span class="block text-xl font-bold text-black">Daniel Smith</span>
+                              <span class="block text-xl font-bold text-black dark:text-white">Daniel Smith</span>
                               <span class="block">Jan 24, 2022</span>
                             </div>
                           </div>
@@ -792,7 +822,7 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4 col-span-12">
+        <div class="lg:col-span-4 col-span-12 dark:text-black">
 
 
           <div class="sidebarWrapper space-y-[30px]">
@@ -803,7 +833,7 @@
                   <img src="@/assets/images/svg/play.svg" alt="">
                 </div>
               </a>
-              <h3>Free</h3>
+              <h3 class=" dark:text-black">Free</h3>
               <button class="btn btn-primary w-full text-center ">
                 Enroll Now
               </button>
@@ -968,3 +998,18 @@
     </div>
   </div>
 </template>
+
+<script setup>
+
+const tabIndex = ref(4);
+const toggleTab = (index) => {
+  tabIndex.value = index;
+};
+
+const dropdownIndex = ref(null);
+const toggleDropdown = (index) => {
+  if (index === dropdownIndex.value) dropdownIndex.value = null;
+  else dropdownIndex.value = index;
+};
+
+</script>

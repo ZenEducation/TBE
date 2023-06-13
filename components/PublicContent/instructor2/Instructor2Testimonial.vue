@@ -7,13 +7,13 @@
         </div>
         <div class="xl:col-span-5 lg:col-span-6 col-span-12 flex flex-col justify-center ">
           <div class="mini-title">Testimonial</div>
-          <h4 class="column-title ">
+          <h4 class="column-title dark:text-black">
             What Says Our
             <span class="shape-bg">
                         Students</span>
             About Us
           </h4>
-          <div>
+          <div class=" dark:text-black">
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered. There are many
             variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
             humour.

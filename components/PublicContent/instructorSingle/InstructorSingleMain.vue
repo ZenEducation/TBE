@@ -1,16 +1,4 @@
 <template>
-     <div class="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat">
-    <div class="container text-center">
-      <h2>About Instructor</h2>
-      <nav>
-        <ol class="flex items-center justify-center space-x-3">
-          <li class="breadcrumb-item"><a href="index.html">Pages </a></li>
-          <li class="breadcrumb-item">-</li>
-          <li class="text-primary">Team Member 1</li>
-        </ol>
-      </nav>
-    </div>
-  </div>
 
   <div class="section-padding bg-[url('../images/all-img/insbg.png')] bg-contain   bg-no-repeat">
     <div class="container">
@@ -20,8 +8,8 @@
             <div class="h-[400px] mb-8">
               <img src="@/assets/images/all-img/single-ins.png" alt="" class="w-full h-full block object-cover rounded-t-md">
             </div>
-            <div class="px-8 pb-8">
-              <h5 class=" text-2xl font-bold text-black mb-4">Coralina Cloud</h5>
+            <div class="px-8 pb-8 dark:text-black">
+              <h5 class=" text-2xl font-bold text-black mb-4 dark:text-black">Coralina Cloud</h5>
               <div class="mb-8">
                 Professor & Chair of Department of Computer Science at University the where been since 1994. vulput for the pellentesque
                 commodo.
@@ -93,9 +81,9 @@
           <div class=" grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-[30px] mt-24">
 
 
-            <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
+            <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4 dark:text-black">
               <img src="@/assets/images/icon/counter-1.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
-              <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
+              <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 dark:text-black">
                 <span class="counter">
                     82
                 </span>
@@ -104,9 +92,9 @@
               <p>Enrolled Students</p>
             </div>
 
-            <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
+            <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4 dark:text-black">
               <img src="@/assets/images/icon/counter-2.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
-              <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
+              <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1  dark:text-black">
                 <span class="counter">
                     460
                 </span>
@@ -115,9 +103,9 @@
               <p>Academic Programs</p>
             </div>
 
-            <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
+            <div class="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4 dark:text-black">
               <img src="@/assets/images/icon/counter-3.svg" alt="" class=" absolute left-1/2 -translate-x-1/2 -top-10">
-              <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
+              <h4 class=" text-[44px] leading-[66px] text-black font-bold mb-1  dark:text-black">
                 <span class="counter">
                     20
                 </span>
@@ -129,7 +117,7 @@
           </div>
           <div class="mt-20 mb-14">
             <div class="mini-title">Courses By Coralina</div>
-            <div class="column-title ">
+            <div class="column-title dark:text-white">
               Courses By
               <span class="shape-bg">Coralina</span>
             </div>
@@ -142,9 +130,9 @@
                 <img src="@/assets/images/all-img/c1.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
                 <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Art &amp; Design</span>
               </div>
-              <div class="course-content p-8">
+              <div class="course-content p-8 dark:text-black">
                 <div class="text-secondary font-bold text-2xl mb-3">$29.28</div>
-                <h4 class=" text-xl mb-3 font-bold">Basic Fundamentals of Interior &amp; Graphics Design</h4>
+                <h4 class=" text-xl mb-3 font-bold dark:text-black">Basic Fundamentals of Interior &amp; Graphics Design</h4>
                 <div class="flex justify-between  space-x-3">
                   <span class=" flex items-center space-x-2">
                         <img src="@/assets/images/svg/file.svg" alt="">
@@ -167,9 +155,9 @@
                 <img src="@/assets/images/all-img/c2.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
                 <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Developemet</span>
               </div>
-              <div class="course-content p-8">
+              <div class="course-content p-8 dark:text-black">
                 <div class="text-secondary font-bold text-2xl mb-3">Free</div>
-                <h4 class=" text-xl mb-3 font-bold">Increasing Engagement with Instagram &amp; Facebook</h4>
+                <h4 class=" text-xl mb-3 font-bold dark:text-black">Increasing Engagement with Instagram &amp; Facebook</h4>
                 <div class="flex justify-between  space-x-3">
                   <span class=" flex items-center space-x-2">
                         <img src="@/assets/images/svg/file.svg" alt="">
@@ -192,9 +180,9 @@
                 <img src="@/assets/images/all-img/c3.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
                 <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Drawing</span>
               </div>
-              <div class="course-content p-8">
+              <div class="course-content p-8 dark:text-black">
                 <div class="text-secondary font-bold text-2xl mb-3">$72.39</div>
-                <h4 class=" text-xl mb-3 font-bold">Introduction to Color Theory &amp;
+                <h4 class=" text-xl mb-3 font-bold dark:text-black">Introduction to Color Theory &amp;
                   Basic UI/UX</h4>
                 <div class="flex justify-between  space-x-3">
                   <span class=" flex items-center space-x-2">
@@ -218,9 +206,9 @@
                 <img src="@/assets/images/all-img/c4.png" alt="" class=" w-full h-full object-cover rounded-t-[8px]">
                 <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">Technology</span>
               </div>
-              <div class="course-content p-8">
+              <div class="course-content p-8 dark:text-black">
                 <div class="text-secondary font-bold text-2xl mb-3">$72.39</div>
-                <h4 class=" text-xl mb-3 font-bold">Financial Security Thinking and Principles Theory</h4>
+                <h4 class=" text-xl mb-3 font-bold dark:text-black">Financial Security Thinking and Principles Theory</h4>
                 <div class="flex justify-between  space-x-3">
                   <span class=" flex items-center space-x-2">
                         <img src="@/assets/images/svg/file.svg" alt="">

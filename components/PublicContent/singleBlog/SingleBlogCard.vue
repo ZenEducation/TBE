@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#F8F8F8] rounded-md">
+    <div class="bg-[#F8F8F8] rounded-md dark:text-black">
         <img src="@/assets/images/all-img/b-s-1.png" alt="" class=" rounded-t-md mb-10">
         <div class="px-10 pb-10">
             <div class="flex  flex-wrap  xl:space-x-10 space-x-5 mt-6 mb-6">
@@ -20,7 +20,7 @@
                     <span>02 Comments</span>
                 </a>
             </div>
-            <h3>
+            <h3 class=" dark:text-black">
                 Learn At Your Own Pace, with Lifetime Access on Mobile & Desktop
             </h3>
             <p class="mt-6">
@@ -54,7 +54,7 @@
                 <img src="@/assets/images/all-img/b-s-2.png" alt="">
                 <img src="@/assets/images/all-img/b-s-3.png" alt="">
             </div>
-            <h4 class="text-2xl mb-4">Education Is About Academic Excellence And Cultural Diversity
+            <h4 class="text-2xl mb-4 dark:text-black">Education Is About Academic Excellence And Cultural Diversity
                 Learning Community</h4>
             <p>
                 There are many variations of passages of Lorem Ipsum available, but the majority have

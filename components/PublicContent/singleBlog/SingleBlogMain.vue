@@ -10,9 +10,7 @@
                     <SingleBlogReplyCard />
                 </div>
                 <div class="lg:col-span-4 col-span-12">
-
-
-                  <SingleBlogSidebar/>
+                    <BlogSidebar />
                 </div>
             </div>
         </div>

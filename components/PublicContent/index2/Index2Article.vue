@@ -24,7 +24,7 @@
                         Learning</span>
             </div>
             <h4 class=" lg:text-2xl lg:leading-[36px] text-1xl mb-4 font-bold">
-              <a href="blog-single.html" class=" group-hover:text-primary transitio duration-150">Fashion and Luxury Fashion in a Changing</a>
+              <a href="blog-single.html" class=" group-hover:text-primary transitio duration-150 dark:text-black">Fashion and Luxury Fashion in a Changing</a>
             </h4>
             <div class="flex   space-x-6">
               <a class=" flex items-center space-x-2" href="#">
@@ -52,7 +52,7 @@
                         Learning</span>
             </div>
             <h4 class=" lg:text-2xl lg:leading-[36px] text-1xl mb-4 font-bold">
-              <a href="blog-single.html" class=" group-hover:text-primary transitio duration-150">Creative Writing Through Storytelling</a>
+              <a href="blog-single.html" class=" group-hover:text-primary transitio duration-150 dark:text-black">Creative Writing Through Storytelling</a>
             </h4>
             <div class="flex   space-x-6">
               <a class=" flex items-center space-x-2" href="#">
@@ -80,7 +80,7 @@
                         Learning</span>
             </div>
             <h4 class=" lg:text-2xl lg:leading-[36px] text-1xl mb-4 font-bold">
-              <a href="blog-single.html" class=" group-hover:text-primary transitio duration-150">Product Manager Learn The Skills &amp; Job</a>
+              <a href="blog-single.html" class=" group-hover:text-primary transitio duration-150 dark:text-black">Product Manager Learn The Skills &amp; Job</a>
             </h4>
             <div class="flex   space-x-6">
               <a class=" flex items-center space-x-2" href="#">
@@ -108,7 +108,7 @@
                         Learning</span>
             </div>
             <h4 class=" lg:text-2xl lg:leading-[36px] text-1xl mb-4 font-bold">
-              <a href="blog-single.html" class=" group-hover:text-primary transitio duration-150">The Power of Podcast for Storytelling</a>
+              <a href="blog-single.html" class=" group-hover:text-primary transitio duration-150 dark:text-black">The Power of Podcast for Storytelling</a>
             </h4>
             <div class="flex   space-x-6">
               <a class=" flex items-center space-x-2" href="#">

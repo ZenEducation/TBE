@@ -8,7 +8,7 @@
                 <div class="flex">
                     <div class="flex-none">
                         <div class="h-[72px] w-[72px] rounded-full mr-6">
-                            <img src="/@/assets/images/all-img/ins-1.png" alt=""
+                            <img src="@/assets/images/all-img/ins-1.png" alt=""
                                 class="w-full block h-full object-contain rounded-full" />
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                         <div class="flex">
                             <div class="flex-none">
                                 <div class="h-[72px] w-[72px] rounded-full mr-6">
-                                    <img src="/@/assets/images/all-img/ins-3.png" alt=""
+                                    <img src="@/assets/images/all-img/ins-3.png" alt=""
                                         class="w-full block h-full object-contain rounded-full" />
                                 </div>
                             </div>
@@ -71,7 +71,7 @@
                 <div class="flex">
                     <div class="flex-none">
                         <div class="h-[72px] w-[72px] rounded-full mr-6">
-                            <img src="/@/assets/images/all-img/ins-2.png" alt=""
+                            <img src="@/assets/images/all-img/ins-2.png" alt=""
                                 class="w-full block h-full object-contain rounded-full" />
                         </div>
                     </div>

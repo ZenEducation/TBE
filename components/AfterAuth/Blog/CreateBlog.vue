@@ -43,7 +43,7 @@
   // }
   </script>
   
-  <style>
+  <style scoped>
 
   .container {
     max-width: 600px;

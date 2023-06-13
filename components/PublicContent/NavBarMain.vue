@@ -1,5 +1,5 @@
 <template>
-  <header class="site-header plain-text text-gray home-one-header top-0 w-full z-[1] rt-sticky"
+  <header class="site-header plain-text text-gray home-one-header top-0 w-full z-[9999] rt-sticky"
     :class="[{ 'scrolledLight': isScrolled && !darkMode }, { 'scrolledDark': isScrolled && darkMode }]"
     :style="navBarStyles">
     <div class="main-header">
@@ -9,10 +9,10 @@
             <img src="@/assets/images/logo/logo.svg" alt="">
           </NuxtLink>
           <div class="flex items-center flex-1">
-            <div class="flex-1 main-menu relative mr-[14px]">
+            <div class="flex-1 main-menu relative mr-[14px] h-auto">
               <ul class="menu-active-classes">
                 <li class=" menu-item-has-children">
-                  <NuxtLink to="/">Home</NuxtLink>
+                  <NuxtLink :class="{'dark:text-white':opaque}" to="/">Home</NuxtLink>
                   <ul class="sub-menu">
                     <li>
                       <NuxtLink to="/">Home One</NuxtLink>
@@ -26,7 +26,7 @@
                   </ul>
                 </li>
                 <li class="menu-item-has-children">
-                  <NuxtLink to="#">Pages</NuxtLink>
+                  <NuxtLink :class="{'dark:text-white':opaque}" to="#">Pages</NuxtLink>
                   <ul class="sub-menu">
                     <li>
                       <NuxtLink to="about">About 1</NuxtLink>
@@ -55,7 +55,7 @@
                   </ul>
                 </li>
                 <li class="menu-item-has-children">
-                  <NuxtLink to="#">Courses</NuxtLink>
+                  <NuxtLink :class="{'dark:text-white':opaque}" to="#">Courses</NuxtLink>
                   <ul class="sub-menu">
                     <li>
                       <NuxtLink to="courses">courses</NuxtLink>
@@ -69,7 +69,7 @@
                   </ul>
                 </li>
                 <li class="menu-item-has-children">
-                  <NuxtLink to="#">Blog</NuxtLink>
+                  <NuxtLink :class="{'dark:text-white':opaque}" to="#">Blog</NuxtLink>
                   <ul class="sub-menu">
                     <li>
                       <NuxtLink to="blog">Blog</NuxtLink>
@@ -86,27 +86,38 @@
                   </ul>
                 </li>
                 <li>
-                  <NuxtLink to="contacts">Contacts</NuxtLink>
+                  <NuxtLink :class="{'dark:text-white':opaque}" to="contacts">Contacts</NuxtLink>
                 </li>
               </ul>
+                <div class="lg:block hidden">
+                  <div class="border border-gray rounded-md  h-[46px] modal-search" :class="isSearchOpen ? 'modal-open' : ''">
+                    <input type="text"
+                      class=" block w-full rounded-md  h-full border-none ring-0 focus:outline-none  focus:ring-0"
+                      placeholder="Search..">
+                  </div>
+                </div>
             </div>
 
             <div class="flex-none flex space-x-[18px]">
-            <div class="flex items-center dark-mode-switch">
-              <button
-                class="flex items-center justify-center w-12 h-12 rounded-full dark:border-gray-600 cursor-pointer focus:outline-none"
-                @click="toggleDarkMode">
-                <img v-if="darkMode" class="w-8 h-8 transition duration-1000 ease-in-out transform rotate-180"
-                  src="@/assets/images/svg/sun.svg" alt="Sun Icon" />
-                <img v-else class="w-10 h-10 transition duration-1000 ease-in-out transform rotate-45"
-                  src="@/assets/images/svg/moon.svg" alt="Moon Icon" />
+              <button v-if="search" @click="toggleSearchBar" type="button"
+                class=" md:w-[56px] md:h-[56px] h-10 w-10 rounded bg-[#F8F8F8] flex flex-col items-center justify-center modal-trigger">
+                <img src="@/assets/images/svg/search.svg" alt="">
               </button>
-            </div>
+              <div class="flex items-center dark-mode-switch">
+                <button
+                  class="flex items-center bg-slate-300 dark:bg-slate-600 justify-center w-12 h-12 rounded-full dark:border-gray-600 cursor-pointer focus:outline-none"
+                  @click="toggleDarkMode">
+                  <img v-if="darkMode" class="w-8 h-8 transition duration-1000 ease-in-out transform rotate-180"
+                    src="@/assets/images/svg/sun.svg" alt="Sun Icon" />
+                  <img v-else class="w-10 h-10 transition duration-1000 ease-in-out transform rotate-45"
+                    src="@/assets/images/svg/moon.svg" alt="Moon Icon" />
+                </button>
+              </div>
 
               <div class="hidden lg:block">
                 <NuxtLink to="#" class="btn btn-primary py-[15px] px-8">Start Free Trial</NuxtLink>
               </div>
-              
+
               <div class="block lg:hidden">
                 <button @click="handleSidebarToggle" type="button"
                   class=" text-3xl md:w-[56px] h-10 w-10 md:h-[56px] rounded bg-[#F8F8F8] flex flex-col items-center justify-center menu-click">
@@ -139,7 +150,7 @@
       </div>
       <div class="mobile-menu mt-6 flex-1 ">
         <ul class="menu-active-classes">
-          <li class=" menu-item-has-children" :class="{'open': spinner === 1}">
+          <li class=" menu-item-has-children" :class="{ 'open': spinner === 1 }">
             <NuxtLink to="/" @click="toggleDropdown(1)">Home</NuxtLink>
             <ul @click="handleSidebarToggle" class="sub-menu" :style="{ display: spinner === 1 ? 'block' : 'none' }">
               <li>
@@ -153,7 +164,7 @@
               </li>
             </ul>
           </li>
-          <li class="menu-item-has-children" :class="{'open': spinner === 2}">
+          <li class="menu-item-has-children" :class="{ 'open': spinner === 2 }">
             <NuxtLink to="#" @click="toggleDropdown(2)">Pages</NuxtLink>
             <ul @click="handleSidebarToggle" class="sub-menu" :style="{ display: spinner === 2 ? 'block' : 'none' }">
               <li>
@@ -182,7 +193,7 @@
               </li>
             </ul>
           </li>
-          <li class="menu-item-has-children" :class="{'open': spinner === 3}">
+          <li class="menu-item-has-children" :class="{ 'open': spinner === 3 }">
             <NuxtLink to="#" @click="toggleDropdown(3)">Courses</NuxtLink>
             <ul @click="handleSidebarToggle" class="sub-menu" :style="{ display: spinner === 3 ? 'block' : 'none' }">
               <li>
@@ -196,7 +207,7 @@
               </li>
             </ul>
           </li>
-          <li class="menu-item-has-children" :class="{'open': spinner === 4}">
+          <li class="menu-item-has-children" :class="{ 'open': spinner === 4 }">
             <NuxtLink to="#" @click="toggleDropdown(4)">Blog</NuxtLink>
             <ul @click="handleSidebarToggle" class="sub-menu" :style="{ display: spinner === 4 ? 'block' : 'none' }">
               <li>
@@ -256,6 +267,17 @@ import { ref, onMounted, onUnmounted } from 'vue';
 import { useStyleStore } from "@/stores/style";
 import { storeToRefs } from "pinia";
 
+defineProps({
+  search: {
+    type: Boolean,
+    default: false
+  },
+  opaque: {
+    type: Boolean,
+    default: false
+  },
+})
+
 const styleStore = useStyleStore();
 const { darkMode } = storeToRefs(styleStore);
 const { setDarkMode } = styleStore;
@@ -303,9 +325,15 @@ const toggleDarkMode = () => {
   setDarkMode(darkMode);
 };
 
+
+const isSearchOpen = ref(false);
+const toggleSearchBar = () => {
+  isSearchOpen.value = !isSearchOpen.value;
+};
+
 </script>
 
-<style>
+<style scoped>
 .scrolledLight {
   background-color: white;
   box-shadow: 0 18px 36px 0 rgba(0, 0, 0, .1);
@@ -317,11 +345,11 @@ const toggleDarkMode = () => {
   box-shadow: 0 18px 36px 0 rgba(255, 255, 255, .1);
   transition: all 0.5s;
 }
+
 .my-element::before {
   content: "\2715";
   font-size: 25px;
 }
-
 </style>
 
 

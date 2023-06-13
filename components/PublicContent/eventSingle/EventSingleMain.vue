@@ -1,17 +1,4 @@
 <template>
-    <div class="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat">
-    <div class="container text-center">
-      <h2>Painting Contest 2022 </h2>
-      <nav>
-        <ol class="flex items-center justify-center space-x-3">
-          <li class="breadcrumb-item"><a href="index.html">Pages </a></li>
-          <li class="breadcrumb-item">-</li>
-          <li class="text-primary">Events</li>
-        </ol>
-      </nav>
-    </div>
-  </div>
-
   <div class="nav-tab-wrapper tabs  section-padding">
     <div class="container">
       <img src="@/assets/images/all-img/main-event.png" alt="" class=" lg:mb-10 mb-6 block w-full">
@@ -21,25 +8,43 @@
             Painting Contest 2022
           </h3>
           <div class="lg:my-6 my-4">
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-            by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of
-            Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-            generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the
-            Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
-            generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition,
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+            some form,
+            by injected humour, or randomised words which don't look even slightly believable. If you are going to use a
+            passage of
+            Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem
+            Ipsum
+            generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator
+            on the
+            Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,
+            to
+            generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+            repetition,
             injected humour.
           </div>
-          <div class="bg-secondary text-white p-10 rounded-md">
-            <div id="timer" class="md:flex space-y-4 md:space-y-0 justify-between text-center "></div>
+          <div v-if="countdownInterval" class="bg-secondary text-white p-6 rounded-md">
+            <div id="timer" class="md:flex space-y-2 md:space-y-0 justify-between text-center ">
+              <div class="text-[44px] font-bold">{{ days }}<div class=" text-lg font-medium capitalize">days</div>
+              </div>
+              <div class="text-[44px] font-bold">{{ hours }}<div class="text-lg font-medium capitalize">hours</div>
+              </div>
+              <div class="text-[44px] font-bold">{{ minutes }}<div class="text-lg font-medium capitalize">minutes</div>
+              </div>
+              <div class="text-[44px] font-bold">{{ seconds }}<div class="text-lg font-medium capitalize">seconds</div>
+              </div>
+            </div>
           </div>
           <div class=" py-6">
-            Among the major reasons why Python is “slow”, it really boils down to 2 — Python is interpreted as opposed to compiled,
-            ultimately leading to slower execution times; and the fact that it is dynamically typed. Take, for example, TensorFlow,
-            a Machine Learning library available in Python. These libraries were actually written in C++ and made available in
+            Among the major reasons why Python is “slow”, it really boils down to 2 — Python is interpreted as opposed to
+            compiled,
+            ultimately leading to slower execution times; and the fact that it is dynamically typed. Take, for example,
+            TensorFlow,
+            a Machine Learning library available in Python. These libraries were actually written in C++ and made
+            available in
             Python, sort of forming a Python implementation. The same goes for Numpy and, to an extent, even Caer.
           </div>
           <div class="flex justify-between border-y border-[#ECECEC] py-4 md:mt-12 mt-10">
-            <div class=" text-black font-semibold">Previous</div>
+            <div class=" text-black font-semibold dark:text-white">Previous</div>
             <ul class="flex space-x-3 lg:justify-end items-center  ">
               <li>
                 <a href="#" class="flex h-8 w-8">
@@ -68,8 +73,8 @@
 
 
           <div class="sidebarWrapper max-w-[90%] mx-auto space-y-[30px]">
-            <div class="wdiget custom-text space-y-5 ">
-              <h4 class=" widget-title">Event Details</h4>
+            <div class="wdiget custom-text space-y-5 dark:text-black">
+              <h4 class=" widget-title dark:text-black">Event Details</h4>
               <ul class="list space-y-6  ">
 
                 <li class=" flex space-x-3 ">
@@ -113,7 +118,7 @@
             </div>
 
             <div class="wdiget">
-              <h4 class=" widget-title">Special Guests</h4>
+              <h4 class=" widget-title dark:text-black">Special Guests</h4>
               <ul class="list space-y-6">
                 <li class=" flex space-x-4 border-[#ECECEC] ">
                   <div class="flex-none ">
@@ -154,3 +159,39 @@
     </div>
   </div>
 </template>
+
+<script setup>
+
+const countdownInterval = ref(null);
+
+const days = ref(null);
+const hours = ref(null);
+const minutes = ref(null);
+const seconds = ref(null);
+
+const countdown = () => {
+  const targetDate = new Date('January 6, 2024');
+  const currentDate = new Date();
+  const remainingTime = targetDate - currentDate;
+
+  if (remainingTime <= 0) {
+    clearInterval(countDownDisplay.value);
+  }
+
+  days.value = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+  hours.value = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  minutes.value = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+  seconds.value = Math.floor((remainingTime % (1000 * 60)) / 1000);
+
+};
+onMounted(() => {
+  countdownInterval.value = setInterval(() => {
+    countdown();
+  }, 1000);
+});
+
+onUnmounted(() => {
+  clearInterval(countdownInterval.value);
+});
+
+</script>

@@ -1,9 +1,11 @@
 <template>
-  <div class="dark:bg-[#111] dark:text-white">
+  <NavBarMain search="true" />
+  <div class="dark:bg-[#111] dark:text-white transition duration-300">
     <div class=" min-h-screen bg-[url('../images/all-img/404-bg.png')] bg-cover bg-no-repeat bg-center">
-      <div class="max-w-[570px] mx-auto flex flex-col items-center text-center justify-center min-h-screen px-4">
+      <div
+        class="max-w-[570px] mx-auto flex flex-col dark:text-black items-center text-center justify-center min-h-screen px-4">
         <img src="@/assets/images/all-img/404.svg" alt="" class="mb-14">
-        <h2 class=" mb-6">Page not found</h2>
+        <h2 class=" mb-6 dark:text-black">Page not found</h2>
         <div class="mb-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua.
         </div>
@@ -11,4 +13,5 @@
       </div>
     </div>
   </div>
+  <Footer />
 </template>

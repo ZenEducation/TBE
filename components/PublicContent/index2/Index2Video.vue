@@ -1,5 +1,5 @@
 <template>
-    <div class=" relative video-area section-padding-bottom z-[1]">
+    <div class=" relative video-area section-padding-bottom z-[0]">
         <div class="bg-[url('assets/images/all-img/section-bg-7.png')] bg-cover bg-no-repeat bg-center absolute left-0 bottom-0 h-[60%]
         w-full z-[-1]"></div>
         <div class="container ">

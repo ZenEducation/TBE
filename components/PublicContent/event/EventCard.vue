@@ -5,11 +5,11 @@
         </div>
         <div class="course-content p-8">
             <h4 class=" text-xl mb-5 font-bold">
-                <a href="event-single.html" class=" hover:text-primary transition duration-150">
+                <a href="event-single.html" class="dark:text-black hover:text-primary transition duration-150">
                     International Art Fair 2022
                 </a>
             </h4>
-            <ul class=" list space-y-3 mb-6">
+            <ul class=" list space-y-3 mb-6 dark:text-black">
                 <li class=" flex space-x-2">
                     <span class="text-lg  text-secondary">
                         <iconify-icon icon="heroicons:calendar-days"></iconify-icon>

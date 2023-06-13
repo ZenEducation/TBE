@@ -395,7 +395,7 @@
   }
 </script>
 
-<style>
+<style scoped>
   .mainPanel {
     position: absolute;
     display: flex;

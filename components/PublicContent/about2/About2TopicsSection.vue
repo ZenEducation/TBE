@@ -3,7 +3,7 @@
     <div class="container">
       <div class="text-center">
         <div class="mini-title">Start Learning From Today</div>
-        <div class="column-title ">
+        <div class="column-title dark:text-white">
           Popular
           <span class="shape-bg">Topics</span>
           To Learn
@@ -17,8 +17,8 @@
           <div class="w-[72px] h-[72px] rounded-full bg-white relative mx-auto flex flex-col justify-center items-center mb-8 group-hover:bg-[#FFE8E8]">
             <img src="@/assets/images/icon/t1.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
-          <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Data Science</h4>
+          <div class="course-content dark:text-black">
+            <h4 class=" text-2xl  mb-2 font-bold dark:text-black">Data Science</h4>
             <p>68 Courses</p>
           </div>
         </a>
@@ -28,8 +28,8 @@
           <div class="w-[72px] h-[72px] rounded-full bg-white relative mx-auto flex flex-col justify-center items-center mb-8 group-hover:bg-green-paste">
             <img src="@/assets/images/icon/t2.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
-          <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">UI/UX Design</h4>
+          <div class="course-content dark:text-black">
+            <h4 class=" text-2xl  mb-2 font-bold dark:text-black">UI/UX Design</h4>
             <p>UI/UX Design</p>
           </div>
         </a>
@@ -39,8 +39,8 @@
           <div class="w-[72px] h-[72px] rounded-full bg-white relative mx-auto flex flex-col justify-center items-center mb-8 group-hover:bg-[#E8F5FF]">
             <img src="@/assets/images/icon/t3.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
-          <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Modern Physics</h4>
+          <div class="course-content dark:text-black">
+            <h4 class=" text-2xl  mb-2 font-bold dark:text-black">Modern Physics</h4>
             <p>68 Courses</p>
           </div>
         </a>
@@ -50,8 +50,8 @@
           <div class="w-[72px] h-[72px] rounded-full bg-white relative mx-auto flex flex-col justify-center items-center mb-8 group-hover:bg-[#E3F9F6]">
             <img src="@/assets/images/icon/t4.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
-          <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Music Production</h4>
+          <div class="course-content dark:text-black">
+            <h4 class=" text-2xl  mb-2 font-bold dark:text-black">Music Production</h4>
             <p>68 Courses</p>
           </div>
         </a>
@@ -61,8 +61,8 @@
           <div class="w-[72px] h-[72px] rounded-full bg-white relative mx-auto flex flex-col justify-center items-center mb-8 group-hover:bg-[#EEE8FF]">
             <img src="@/assets/images/icon/t5.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
-          <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Data Science</h4>
+          <div class="course-content dark:text-black">
+            <h4 class=" text-2xl  mb-2 font-bold dark:text-black">Data Science</h4>
             <p>45 Courses</p>
           </div>
         </a>
@@ -72,8 +72,8 @@
           <div class="w-[72px] h-[72px] rounded-full bg-white relative mx-auto flex flex-col justify-center items-center mb-8 group-hover:bg-[#FFF6EB]">
             <img src="@/assets/images/icon/t6.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
-          <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Finances</h4>
+          <div class="course-content dark:text-black">
+            <h4 class=" text-2xl  mb-2 font-bold dark:text-black">Finances</h4>
             <p>68 Courses</p>
           </div>
         </a>
@@ -83,8 +83,8 @@
           <div class="w-[72px] h-[72px] rounded-full bg-white relative mx-auto flex flex-col justify-center items-center mb-8 group-hover:bg-[#E8FFEA]">
             <img src="@/assets/images/icon/t7.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
-          <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Global Science</h4>
+          <div class="course-content dark:text-black">
+            <h4 class=" text-2xl  mb-2 font-bold dark:text-black">Global Science</h4>
             <p>75 Courses</p>
           </div>
         </a>
@@ -94,8 +94,8 @@
           <div class="w-[72px] h-[72px] rounded-full bg-white relative mx-auto flex flex-col justify-center items-center mb-8 group-hover:bg-[#FFE8E8]">
             <img src="@/assets/images/icon/t8.svg" alt="" class=" w-[32px] h-[32px] object-cover ">
           </div>
-          <div class="course-content">
-            <h4 class=" text-2xl  mb-2 font-bold">Game Design</h4>
+          <div class="course-content dark:text-black">
+            <h4 class=" text-2xl  mb-2 font-bold dark:text-black">Game Design</h4>
             <p>12 Courses</p>
           </div>
         </a>
