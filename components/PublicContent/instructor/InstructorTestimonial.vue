@@ -1,6 +1,5 @@
 <template>
   <div
-
     class=" section-padding bg-[url('assets/images/all-img/section-bg-12.png')] dark:bg-[url('')] bg-no-repeat bg-cover">
     <div class="container">
       <div class="grid  lg:grid-cols-2 grid-cols-1  xl:gap-[60px] gap-6">
@@ -32,11 +31,11 @@
                 Feedback</span>
             </h4>
             <div class="relative slider-for mt-10 slick-initialized slick-slider">
-              <div class="absolute fadeText" :class="[ slider === 1 ? 'fadeText active': 'fadeText' ]">
+              <div class="absolute fadeText" :class="[slider === 1 ? 'fadeText active' : 'fadeText']">
                 <div>
                   <h3 class=" text-2xl font-bold text-black mb-8 dark:text-white">“It’s Truly The Best Solution For Me”
                   </h3>
-                  <div class="mb-8">
+                  <div class="mb-8 dark:text-white">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered. There
                     are many
                     variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
@@ -47,10 +46,10 @@
                   </div>
                 </div>
               </div>
-              <div class="absolute fadeText" :class="[ slider === 2 ? 'fadeText active': 'fadeText' ]">
+              <div class="absolute fadeText" :class="[slider === 2 ? 'fadeText active' : 'fadeText']">
                 <div>
                   <h3 class=" text-2xl font-bold text-black mb-8">“It’s Truly The Best Solution For Me”</h3>
-                  <div class="mb-8">
+                  <div class="mb-8 dark:text-white">
                     There are many variations of passages of Lorem Ipsum available,
                   </div>
                   <div>
@@ -59,10 +58,10 @@
                   </div>
                 </div>
               </div>
-              <div class="absolute fadeText" :class="[ slider === 3 ? 'fadeText active': 'fadeText' ]">
+              <div class="absolute fadeText" :class="[slider === 3 ? 'fadeText active' : 'fadeText']">
                 <div>
                   <h3 class=" text-2xl font-bold text-black mb-8">“It’s Truly The Best Solution For Me”</h3>
-                  <div class="mb-8">
+                  <div class="mb-8 dark:text-white">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
                   </div>
                   <div>
@@ -75,7 +74,7 @@
                 <div>
                   <h3 class=" text-2xl font-bold text-black mb-8 dark:text-white">“It’s Truly The Best Solution For Me”
                   </h3>
-                  <div class="mb-8">
+                  <div class="mb-8 dark:text-white">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered. There
                     are many
                     variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
@@ -110,8 +109,8 @@ const slider = ref(1);
 
 const xTransform = ref(0);
 const xValueCalculator = () => {
-  if(slider.value === 1) xTransform.value = 0;
-  else if(slider.value === 2) xTransform.value = -100;
+  if (slider.value === 1) xTransform.value = 0;
+  else if (slider.value === 2) xTransform.value = -100;
   else xTransform.value = -200;
 };
 
@@ -127,7 +126,6 @@ const rightSlider = () => {
 </script>
 
 <style scoped>
-
 .fadeText {
   opacity: 0;
   animation: fadeOut 0.3s ease-in;
@@ -139,13 +137,23 @@ const rightSlider = () => {
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 .slider {
@@ -158,6 +166,4 @@ const rightSlider = () => {
 .slide {
   transition: all 0.3s ease-out;
   min-width: 100%;
-}
-
-</style>
+}</style>

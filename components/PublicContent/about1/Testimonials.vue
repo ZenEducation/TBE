@@ -1,4 +1,4 @@
-<template>
+<template> 
      <div class=" section-padding bg-[url('../images/all-img/section-bg-16.png')] bg-cover  bg-no-repeat">
     <div class="container">
       <div class="grid grid-cols-12 lg:gap-10 gap-6 ">

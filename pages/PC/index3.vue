@@ -1,5 +1,5 @@
 <template>
-    <NavBarMain search="true" opaque="true"/>
+    <NavBarMain search=true opaque="true" />
     <div class="dark:bg-[#111] dark:text-white transition duration-300">
         <Index3TopSection />
         <Index3Brands />

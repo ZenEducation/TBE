@@ -1,5 +1,5 @@
 <template>
-  <NavBarMain search="true" />
+  <NavBarMain search=true />
   <div class="dark:bg-[#111] dark:text-white transition duration-300">
     <div class=" min-h-screen bg-[url('../images/all-img/404-bg.png')] bg-cover bg-no-repeat bg-center">
       <div

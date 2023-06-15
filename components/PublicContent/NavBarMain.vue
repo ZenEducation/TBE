@@ -1,92 +1,93 @@
-<template>
-  <header class="site-header plain-text text-gray home-one-header top-0 w-full z-[9999] rt-sticky"
+<template> 
+  <header class="site-header plain-text text-gray home-one-header top-0 w-full z-[9999] rt-sticky dark:bg-black"
     :class="[{ 'scrolledLight': isScrolled && !darkMode }, { 'scrolledDark': isScrolled && darkMode }]"
     :style="navBarStyles">
     <div class="main-header">
       <div class="container pb-2.5 pt-10">
         <div class=" flex items-center justify-between">
-          <NuxtLink to="/" class="brand-logo flex-none lg:mr-10 md:w-auto max-w-[120px] ">
-            <img src="@/assets/images/logo/logo.svg" alt="">
+          <NuxtLink to="/" class="brand-logo flex-none lg:mr-14 md:w-auto max-w-[120px] ">
+            <!-- <img src="@/assets/images/logo/logo.svg" alt=""> -->
+            <h4>TBE</h4>
           </NuxtLink>
           <div class="flex items-center flex-1">
             <div class="flex-1 main-menu relative mr-[14px] h-auto">
               <ul class="menu-active-classes">
                 <li class=" menu-item-has-children">
-                  <NuxtLink :class="{'dark:text-white':opaque}" to="/">Home</NuxtLink>
+                  <NuxtLink class="dark:text-white" :class="{'dark:text-white':opaque}" to="/">Home</NuxtLink>
                   <ul class="sub-menu">
                     <li>
                       <NuxtLink to="/">Home One</NuxtLink>
                     </li>
                     <li>
-                      <NuxtLink to="index2">Home Two</NuxtLink>
+                      <NuxtLink to="PC/index2">Home Two</NuxtLink>
                     </li>
                     <li>
-                      <NuxtLink to="index3">Home Three</NuxtLink>
-                    </li>
-                  </ul>
-                </li>
-                <li class="menu-item-has-children">
-                  <NuxtLink :class="{'dark:text-white':opaque}" to="#">Pages</NuxtLink>
-                  <ul class="sub-menu">
-                    <li>
-                      <NuxtLink to="about">About 1</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink to="about2">About 2</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink to="instructor">instructor 1</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink to="instructor2">instructor 2</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink to="instructor-details">instructor Single</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink to="event">Event</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink to="event-single">Event single</NuxtLink>
-                    </li>
-                    <li>
-                      <NuxtLink to="404">404</NuxtLink>
+                      <NuxtLink to="PC/index3">Home Three</NuxtLink>
                     </li>
                   </ul>
                 </li>
                 <li class="menu-item-has-children">
-                  <NuxtLink :class="{'dark:text-white':opaque}" to="#">Courses</NuxtLink>
+                  <NuxtLink class="dark:text-white" :class="{'dark:text-white':opaque}" to="#">Pages</NuxtLink>
                   <ul class="sub-menu">
                     <li>
-                      <NuxtLink to="courses">courses</NuxtLink>
+                      <NuxtLink to="PC/about">About 1</NuxtLink>
                     </li>
                     <li>
-                      <NuxtLink to="courses-sidebar">courses Sidebar</NuxtLink>
+                      <NuxtLink to="PC/about2">About 2</NuxtLink>
                     </li>
                     <li>
-                      <NuxtLink to="single-course">Single-course</NuxtLink>
+                      <NuxtLink to="PC/instructor">instructor 1</NuxtLink>
+                    </li>
+                    <li>
+                      <NuxtLink to="PC/instructor2">instructor 2</NuxtLink>
+                    </li>
+                    <li>
+                      <NuxtLink to="PC/instructor-details">instructor Single</NuxtLink>
+                    </li>
+                    <li>
+                      <NuxtLink to="PC/event">Event</NuxtLink>
+                    </li>
+                    <li>
+                      <NuxtLink to="PC/event-single">Event single</NuxtLink>
+                    </li>
+                    <li>
+                      <NuxtLink to="PC/404">404</NuxtLink>
                     </li>
                   </ul>
                 </li>
                 <li class="menu-item-has-children">
-                  <NuxtLink :class="{'dark:text-white':opaque}" to="#">Blog</NuxtLink>
+                  <NuxtLink class="dark:text-white" :class="{'dark:text-white':opaque}" to="#">Courses</NuxtLink>
                   <ul class="sub-menu">
                     <li>
-                      <NuxtLink to="blog">Blog</NuxtLink>
+                      <NuxtLink to="PC/courses">courses</NuxtLink>
                     </li>
                     <li>
-                      <NuxtLink to="blog-full">Full Width</NuxtLink>
+                      <NuxtLink to="PC/courses-sidebar">courses Sidebar</NuxtLink>
                     </li>
                     <li>
-                      <NuxtLink to="blog-standard">Blog Standard</NuxtLink>
+                      <NuxtLink to="PC/single-course">Single-course</NuxtLink>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children">
+                  <NuxtLink class="dark:text-white" :class="{'dark:text-white':opaque}" to="#">Blog</NuxtLink>
+                  <ul class="sub-menu">
+                    <li>
+                      <NuxtLink to="PC/blog">Blog</NuxtLink>
                     </li>
                     <li>
-                      <NuxtLink to="blog-single">Single Blog</NuxtLink>
+                      <NuxtLink to="PC/blog-full">Full Width</NuxtLink>
+                    </li>
+                    <li>
+                      <NuxtLink to="PC/blog-standard">Blog Standard</NuxtLink>
+                    </li>
+                    <li>
+                      <NuxtLink to="PC/blog-single">Single Blog</NuxtLink>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <NuxtLink :class="{'dark:text-white':opaque}" to="contacts">Contacts</NuxtLink>
+                  <NuxtLink class="dark:text-white" :class="{'dark:text-white':opaque}" to="PC/contacts">Contacts</NuxtLink>
                 </li>
               </ul>
                 <div class="lg:block hidden">
@@ -157,10 +158,10 @@
                 <NuxtLink to="/">Home One</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/index2">Home Two</NuxtLink>
+                <NuxtLink to="PC/index2">Home Two</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/index3">Home Three</NuxtLink>
+                <NuxtLink to="PC/index3">Home Three</NuxtLink>
               </li>
             </ul>
           </li>
@@ -168,25 +169,25 @@
             <NuxtLink to="#" @click="toggleDropdown(2)">Pages</NuxtLink>
             <ul @click="handleSidebarToggle" class="sub-menu" :style="{ display: spinner === 2 ? 'block' : 'none' }">
               <li>
-                <NuxtLink to="/PC/about">About 1</NuxtLink>
+                <NuxtLink to="PC/about">About 1</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/about2">About 2</NuxtLink>
+                <NuxtLink to="PC/about2">About 2</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/instructor">instructor 1</NuxtLink>
+                <NuxtLink to="PC/instructor">instructor 1</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/instructor2">instructor 2</NuxtLink>
+                <NuxtLink to="PC/instructor2">instructor 2</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/instructor-details">instructor Single</NuxtLink>
+                <NuxtLink to="PC/instructor-details">instructor Single</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/event">Event</NuxtLink>
+                <NuxtLink to="PC/event">Event</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/event-single">Event single</NuxtLink>
+                <NuxtLink to="PC/event-single">Event single</NuxtLink>
               </li>
               <li>
                 <NuxtLink to="404">404</NuxtLink>
@@ -197,13 +198,13 @@
             <NuxtLink to="#" @click="toggleDropdown(3)">Courses</NuxtLink>
             <ul @click="handleSidebarToggle" class="sub-menu" :style="{ display: spinner === 3 ? 'block' : 'none' }">
               <li>
-                <NuxtLink to="/PC/courses">courses</NuxtLink>
+                <NuxtLink to="PC/courses">courses</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/courses-sidebar">courses Sidebar</NuxtLink>
+                <NuxtLink to="PC/courses-sidebar">courses Sidebar</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/single-course">Single-course</NuxtLink>
+                <NuxtLink to="PC/single-course">Single-course</NuxtLink>
               </li>
             </ul>
           </li>
@@ -211,16 +212,16 @@
             <NuxtLink to="#" @click="toggleDropdown(4)">Blog</NuxtLink>
             <ul @click="handleSidebarToggle" class="sub-menu" :style="{ display: spinner === 4 ? 'block' : 'none' }">
               <li>
-                <NuxtLink to="/PC/blog">Blog</NuxtLink>
+                <NuxtLink to="PC/blog">Blog</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/blog-full">Full Width</NuxtLink>
+                <NuxtLink to="PC/blog-full">Full Width</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/blog-standard">Blog Standard</NuxtLink>
+                <NuxtLink to="PC/blog-standard">Blog Standard</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/PC/blog-single">Single Blog</NuxtLink>
+                <NuxtLink to="PC/blog-single">Single Blog</NuxtLink>
               </li>
             </ul>
           </li>

@@ -1,4 +1,4 @@
-<template>
+<template> 
   <div 
     class="section-padding bg-[url('assets/images/all-img/section-bg-15.png')] dark:bg-[url('')] bg-bottom  bg-cover bg-no-repeat">
     <div class="container">
@@ -15,7 +15,7 @@
                 <span>What does it take excellent author?</span>
                 <span class="icon-pm"></span>
               </button>
-              <div class="dropdown-menu" :class="[ tabIndex === 1 ? 'dropdown-menu active': 'dropdown-menu' ]">
+              <div class="dropdown-menu dark:text-black" :class="[ tabIndex === 1 ? 'dropdown-menu active': 'dropdown-menu' ]">
                 Learn at your own pace, move between multiple courses, or switch to a different course. Earn a certificate for every learning program that you complete at no additional cost.
               </div>
             </li>
@@ -25,7 +25,7 @@
                 </span>
                 <span class="icon-pm"></span>
               </button>
-              <div class="dropdown-menu" :class="[ tabIndex === 2 ? 'dropdown-menu active': 'dropdown-menu' ]">
+              <div class="dropdown-menu dark:text-black" :class="[ tabIndex === 2 ? 'dropdown-menu active': 'dropdown-menu' ]">
                 Learn at your own pace, move between multiple courses, or switch to a different course. Earn a certificate
                 for every
                 learning program that you complete at no additional cost.
@@ -37,7 +37,7 @@
                 </span>
                 <span class="icon-pm"></span>
               </button>
-              <div class="dropdown-menu" :class="[ tabIndex === 3 ? 'dropdown-menu active': 'dropdown-menu' ]">
+              <div class="dropdown-menu dark:text-black" :class="[ tabIndex === 3 ? 'dropdown-menu active': 'dropdown-menu' ]">
                 Learn at your own pace, move between multiple courses, or switch to a different course. Earn a certificate
                 for every
                 learning program that you complete at no additional cost.
@@ -48,7 +48,7 @@
                 <span>How to Change my Password easily?</span>
                 <span class="icon-pm"></span>
               </button>
-              <div class="dropdown-menu" :class="[ tabIndex === 4 ? 'dropdown-menu active': 'dropdown-menu' ]">
+              <div class="dropdown-menu dark:text-black" :class="[ tabIndex === 4 ? 'dropdown-menu active': 'dropdown-menu' ]">
                 Learn at your own pace, move between multiple courses, or switch to a different course. Earn a certificate
                 for every
                 learning program that you complete at no additional cost.
