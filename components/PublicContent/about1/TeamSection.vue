@@ -3,7 +3,7 @@
     <div class="container">
       <div class="text-center">
         <div class="mini-title">Team Member</div>
-        <div class="column-title ">
+        <div class="column-title dark:text-white">
           Our Expert
           <span class="shape-bg">Instructors</span>
         </div>
@@ -43,8 +43,8 @@
               </ul>
             </div>
           </div>
-          <div class="course-content p-6">
-            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Erics Widget</h4>
+          <div class="course-content p-6 dark:text-black">
+            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold dark:text-black">Erics Widget</h4>
             <div>UI/UX Designer</div>
           </div>
         </div>
@@ -81,8 +81,8 @@
               </ul>
             </div>
           </div>
-          <div class="course-content p-6">
-            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Daniel Steven</h4>
+          <div class="course-content p-6 dark:text-black">
+            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold dark:text-black">Daniel Steven</h4>
             <div>UI/UX Designer</div>
           </div>
         </div>
@@ -119,8 +119,8 @@
               </ul>
             </div>
           </div>
-          <div class="course-content p-6">
-            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Nelson Decosta</h4>
+          <div class="course-content p-6 dark:text-black">
+            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold dark:text-black">Nelson Decosta</h4>
             <div>UI/UX Designer</div>
           </div>
         </div>
@@ -157,8 +157,8 @@
               </ul>
             </div>
           </div>
-          <div class="course-content p-6">
-            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold">Selina Gomez</h4>
+          <div class="course-content p-6 dark:text-black">
+            <h4 class=" lg:text-2xl text-1xl mb-1 font-bold dark:text-black">Selina Gomez</h4>
             <div>UI/UX Designer</div>
           </div>
         </div>

@@ -8,8 +8,8 @@
                     </span>
                 </div>
                 <div class="flex-0">
-                    <div class="min-w-[272px]">
-                        <select>
+                    <div class="min-w-[272px] dark:text-black">
+                        <select class="nice-select">
                             <option data-display="Sort By: Popularity">Sort By: Popularity</option>
                             <option value="1">Popularity</option>
                             <option value="2">Another option</option>
@@ -17,22 +17,39 @@
                         </select>
                     </div>
                 </div>
+                <!-- <div class="min-w-[272px] dark:text-black">
+                    <select style="display: none;">
+                        <option data-display="Sort By: Popularity">Sort By: Popularity</option>
+                        <option value="1">Popularity</option>
+                        <option value="2">Another option</option>
+                        <option value="4">Potato</option>
+                    </select>
+                    <div class="nice-select open" tabindex="0"><span class="current">Potato</span>
+                        <ul class="list">
+                            <li data-value="Sort By: Popularity" data-display="Sort By: Popularity" class="option">Sort By:
+                                Popularity</li>
+                            <li data-value="1" class="option">Popularity</li>
+                            <li data-value="2" class="option">Another option</li>
+                            <li data-value="4" class="option selected focus">Potato</li>
+                        </ul>
+                    </div>
+                </div> -->
             </div>
             <div class="grid  lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
 
-<EventCard/>
-<EventCard/>
-<EventCard/>
-<EventCard/>
-<EventCard/>
-<EventCard/>
-<EventCard/>
-<EventCard/>
-<EventCard/>
-<EventCard/>
-<EventCard/>
-<EventCard/>
-                
+                <EventCard imagename="@/assets/images/all-img/e1.png" />
+                <EventCard />
+                <EventCard />
+                <EventCard />
+                <EventCard />
+                <EventCard />
+                <EventCard />
+                <EventCard />
+                <EventCard />
+                <EventCard />
+                <EventCard />
+                <EventCard />
+
 
             </div>
             <div class="pagination mt-14">
@@ -40,35 +57,32 @@
                     <li class="inline-flex">
                         <a href="#"
                             class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold">
-                            <iconify-icon icon="heroicons:chevron-double-left-20-solid"
-                                class=" text-2xl"></iconify-icon>
+                            <iconify-icon icon="heroicons:chevron-double-left-20-solid" class=" text-2xl text-black"></iconify-icon>
                         </a>
                     </li>
                     <li class="inline-flex">
                         <a href="#"
-                            class="flex w-12 h-12 flex-col items-center justify-center bg-primary text-white rounded font-semibold">1</a>
+                            class="flex w-12 h-12 flex-col items-center justify-center bg-primary text-white rounded font-semibold text-black">1</a>
                     </li>
                     <li class="inline-flex">
                         <a href="#"
-                            class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold">2</a>
+                            class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold text-black">2</a>
                     </li>
                     <li class="inline-flex">
                         <a href="#"
-                            class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold">3</a>
+                            class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold text-black">3</a>
                     </li>
                     <li class="inline-flex">
                         <a href="#"
-                            class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold">4</a>
+                            class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold text-black">4</a>
                     </li>
                     <li class="inline-flex">
                         <a href="#"
                             class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold">
-                            <iconify-icon icon="heroicons:chevron-double-right-20-solid"
-                                class=" text-2xl"></iconify-icon>
+                            <iconify-icon icon="heroicons:chevron-double-right-20-solid" class=" text-2xl text-black"></iconify-icon>
                         </a>
-                    </li>
-                </ul>
-            </div>
+                </li>
+            </ul>
         </div>
     </div>
-</template>
+</div></template>

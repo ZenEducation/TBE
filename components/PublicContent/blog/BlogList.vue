@@ -12,9 +12,10 @@
                         <BlogCard />
                         <BlogCard />
                         <BlogCard />
+                        <BlogCard />
 
                     </div>
-                    <div class="pagination mt-14">
+                    <div class="pagination mt-14 dark:text-black">
                         <ul class=" flex justify-center space-x-3">
                             <li class="inline-flex">
                                 <a href="#"

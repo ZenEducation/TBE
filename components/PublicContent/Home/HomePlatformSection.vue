@@ -4,7 +4,7 @@
       <div class="lg:grid grid-cols-12 gap-[30px]">
         <div class="xl:col-span-5 lg:col-span-6 col-span-12">
           <div class="mini-title">Best Online Learning Platform</div>
-          <h4 class="column-title ">
+          <h4 class="column-title dark:text-white">
             One Platfrom & Many
             <span class="shape-bg">
                         Courses</span>
@@ -21,7 +21,7 @@
                 </div>
               </div>
               <div class="flex-1">
-                <h4 class=" text-lg mb-1 font-semibold">9/10 Average Satisfaction Rate</h4>
+                <h4 class=" text-lg mb-1 font-semibold dark:text-white">9/10 Average Satisfaction Rate</h4>
               </div>
             </li>
             <li class="flex flex-wrap">
@@ -31,7 +31,7 @@
                 </div>
               </div>
               <div class="flex-1">
-                <h4 class=" text-lg mb-1 font-semibold">96% Completitation Rate</h4>
+                <h4 class=" text-lg mb-1 font-semibold dark:text-white">96% Completitation Rate</h4>
               </div>
             </li>
             <li class="flex flex-wrap">
@@ -41,7 +41,7 @@
                 </div>
               </div>
               <div class="flex-1">
-                <h4 class=" text-lg mb-1 font-semibold">Friendly Environment & Expert Teacher</h4>
+                <h4 class=" text-lg mb-1 font-semibold dark:text-white">Friendly Environment & Expert Teacher</h4>
               </div>
             </li>
           </ul>

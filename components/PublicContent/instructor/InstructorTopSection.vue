@@ -1,23 +1,11 @@
 <template>
-     <div class="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat">
-    <div class="container text-center">
-      <h2>Instructor</h2>
-      <nav>
-        <ol class="flex items-center justify-center space-x-3">
-          <li class="breadcrumb-item"><a href="index.html">Pages </a></li>
-          <li class="breadcrumb-item">-</li>
-          <li class="text-primary">Instructor 1</li>
-        </ol>
-      </nav>
-    </div>
-  </div>
 
   <!-- team start -->
   <div class=" section-padding">
     <div class="container">
       <div class="text-center">
         <div class="mini-title">Team Member</div>
-        <div class="column-title ">
+        <div class="column-title dark:text-white">
           Our Expert
           <span class="shape-bg">Instructors</span>
         </div>

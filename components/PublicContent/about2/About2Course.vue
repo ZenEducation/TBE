@@ -9,7 +9,7 @@
               Become an
               <span class="shape-bg">Instructor</span>
             </div>
-            <div class=" mt-6 mb-12">
+            <div class=" mt-6 mb-12 text-black">
               Learn at your own pace, move the between multiple courses.
             </div>
             <a href="#" class="btn btn-primary">Apply Now</a>
@@ -22,7 +22,7 @@
               Get Free
               <span class="shape-bg">Courses</span>
             </div>
-            <div class=" mt-6 mb-12">
+            <div class=" mt-6 mb-12 text-black">
               Learn at your own pace, move the between multiple courses.
             </div>
             <a href="#" class="btn btn-black">Contact Us</a>

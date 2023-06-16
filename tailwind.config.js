@@ -11,10 +11,14 @@ module.exports = {
     "./configs/**.{vue,js,ts,jsx,tsx}",
     "./app.vue",
   ],
-  darkMode: "class", // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class' 
   theme: {
      fontFamily: {
-      sans: ['Gillroy', 'sans-serif'],
+      // sans: ['Gilroy', 'sans-serif'],
+        body: ['Gilroy'],
+        heading: ['Gilroy', 'sans-serif'],
+        playfair: ['Playfair Display', 'serif'],
+        rossela: ['Conv_Rossela-Demo-2', 'serif'],
       // Other font families...
     },
     asideScrollbars: {

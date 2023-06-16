@@ -27,7 +27,7 @@
   }
 </script>
 
-<style>
+<style scoped>
   .tasks-groups-container {
     --width: 20rem;
   }

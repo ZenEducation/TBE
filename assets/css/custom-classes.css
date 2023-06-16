@@ -483,7 +483,7 @@ select {
   background-size: 1.5em 1.5em;
   padding-right: 2.5rem;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+          print-color-adjust: exact;
 }
 
 [multiple] {
@@ -493,7 +493,7 @@ select {
   background-size: initial;
   padding-right: 0.75rem;
   -webkit-print-color-adjust: unset;
-          color-adjust: unset;
+          print-color-adjust: unset;
 }
 
 [type='checkbox'],[type='radio'] {
@@ -502,7 +502,7 @@ select {
           appearance: none;
   padding: 0;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+          print-color-adjust: exact;
   display: inline-block;
   vertical-align: middle;
   background-origin: border-box;
@@ -814,6 +814,15 @@ input:focus {
   color: rgb(12 19 39 / var(--tw-text-opacity));
 }
 
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: white;
+}
+
 @media (min-width: 768px) {
   .column-title {
     font-size: 38px;
@@ -1088,6 +1097,13 @@ input:focus {
 .btn-black {
   --tw-bg-opacity: 1;
   background-color: rgb(12 19 39 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark .btn-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 190 173 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1485,6 +1501,19 @@ input:focus {
   padding-bottom: 15px;
 }
 
+.tab-btn {
+  display: block;
+  padding-left: 3.7rem;
+  padding-right: 3.7rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tab-btn.active {
+  background-color: rgb(255 126 132);
+  color: white;
+}
+
 .course-tab li a:first-child {
   border-top-left-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
@@ -1622,14 +1651,20 @@ input:focus {
 
 .main-menu > ul > li:hover > a {
   --tw-text-opacity: 1;
-  color: rgb(12 19 39 / var(--tw-text-opacity));
+  color: rgb(255 126 132 / var(--tw-text-opacity));
 }
 
 .main-menu > ul > li.menu-item-has-children > a:after {
   position: absolute;
-  content: "\f101";
-  font-family: "flaticon";
-  font-size: 11px;
+  /* content: url(@/assets/images/all-img/down.png); */
+  content: "\2335";
+  font-size: 18px;
+  /* padding-top: 0.3rem; */
+  padding-bottom: 0.3rem;
+  padding-right: 0.4rem;
+  /* content: "\02C5";
+  font-family: "flaticon"; */
+  /* font-size: 11px; */
   right: 1.25rem;
 }
 
@@ -1641,7 +1676,7 @@ input:focus {
 
 li.menu-item-has-children:hover > a:after {
   --tw-text-opacity: 1;
-  color: rgb(12 19 39 / var(--tw-text-opacity));
+  color: rgb(255 126 132 / var(--tw-text-opacity));
 }
 
 .main-menu > ul > li.menu-item-has-children > ul.sub-menu {
@@ -1793,10 +1828,15 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .modal-search {
   display: none;
+  position: absolute;
+  top: -30%;
 }
 
-.modal-open .modal-search {
+.modal-search.modal-open {
   display: block;
+  width: 100%;
+  width: 100%;
+  z-index: 1;
   -webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
           animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -1843,7 +1883,7 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .mobile-menu > ul > li:hover > a {
   --tw-text-opacity: 1;
-  color: rgb(12 19 39 / var(--tw-text-opacity));
+  color: rgb(255 126 132 / var(--tw-text-opacity));
 }
 
 .mobile-menu ul li a {
@@ -1857,8 +1897,9 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .mobile-menu > ul > li.menu-item-has-children > a:after {
   position: absolute;
-  content: "\f105";
-  font-family: "flaticon";
+  /* content: url(@/assets/images/all-img/right.png); */
+  content: "\232a";
+  font-family: "Arial";
   font-size: 13px;
   right: 1.25rem;
 }
@@ -1870,7 +1911,9 @@ ul ul > li.menu-item-has-children:hover > a:after {
 }
 
 .mobile-menu > ul > li.menu-item-has-children.open > a:after {
-  content: "\f101";
+  content: "\2335";
+  /* content: url(@/assets/images/all-img/down.png); */
+  font-size: 18px;
 }
 
 .mobile-menu ul ul, .mobile-menu .rt-mega-menu {
@@ -1905,7 +1948,7 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .mobile-menu ul ul > li > a:hover {
   --tw-text-opacity: 1;
-  color: rgb(12 19 39 / var(--tw-text-opacity));
+  color: rgb(255 126 132 / var(--tw-text-opacity));
 }
 
 .openmobile-menu {
@@ -2911,6 +2954,11 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.nice-select {
+  border-radius: 4px;
+  padding: 16px 120px 16px 16px;
 }
 
 .select-none {
@@ -4270,6 +4318,11 @@ ul ul > li.menu-item-has-children:hover > a:after {
 }
 
 .text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(48 190 173 / var(--tw-text-opacity));
+}
+
+.dark .text-secondary {
   --tw-text-opacity: 1;
   color: rgb(48 190 173 / var(--tw-text-opacity));
 }

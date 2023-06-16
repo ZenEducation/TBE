@@ -31,30 +31,30 @@ const allLinks = [
     icon: mdiTelevisionGuide,
   },
   {
-    to: '/pps/tablesListsView',
+    to: '/AA/tablesListsView',
     label: 'Tables & Lists',
     icon: mdiTable,
     updateMark: 'warning',
   },
 
   {
-    to: '/pps/FormsView',
+    to: '/AA/FormsView',
     label: 'Forms Advanced',
     icon: mdiBallot,
   },
 
   {
-    to: '/pps/uiView',
+    to: '/AA/uiView',
     label: 'UI Advanced',
     icon: mdiViewQuilt,
   },
   {
-    to: '/pps/styleView',
+    to: '/AA/styleView',
     label: 'Stylize',
     icon: mdiPalette,
   },
   {
-    to: '/pps/pricingView',
+    to: '/AA/pricingView',
     label: 'Pricing layout',
     icon: mdiBarcode,
   },
@@ -71,7 +71,7 @@ const allLinks = [
     ],
   },
   {
-    to: '/pps/profileView',
+    to: '/AA/profileView',
     label: 'Profile',
     icon: mdiAccountCircle,
   },
@@ -166,7 +166,7 @@ const educatorLinks = [
     icon: mdiTelevisionGuide,
   },
   {
-    to: '/pps/tablesListsView',
+    to: '/AA/tablesListsView',
     label: 'Educator Link 3',
     icon: mdiTable,
     updateMark: 'warning',
@@ -185,7 +185,7 @@ const employeesLinks = [
     icon: mdiTelevisionGuide,
   },
   {
-    to: '/pps/tablesListsView',
+    to: '/AA/tablesListsView',
     label: 'Employee Link 3',
     icon: mdiTable,
     updateMark: 'warning',
@@ -204,7 +204,7 @@ const freelancerLinks = [
     icon: mdiTelevisionGuide,
   },
   {
-    to: '/pps/tablesListsView',
+    to: '/AA/tablesListsView',
     label: 'Tables & Lists',
     icon: mdiTable,
     updateMark: 'warning',
