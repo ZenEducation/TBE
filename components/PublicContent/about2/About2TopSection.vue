@@ -1,7 +1,7 @@
 <template>
 
   <!-- about area start -->
-  <div class="about-area  section-padding-top pb-16 relative z-[1]">
+  <div class="about-area  section-padding-top pb-16 relative">
     <div class=" absolute right-[7%] top-[20%] z-[-1] hidden xl:block"><img src="@/assets/images/icon/h.svg" alt="">
     </div>
     <div class="container">
