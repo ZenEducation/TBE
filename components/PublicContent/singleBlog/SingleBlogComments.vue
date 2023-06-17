@@ -15,7 +15,7 @@
                     <div class="flex-1">
                         <div class="flex flex-wrap justify-between mb-2">
                             <div>
-                                <span class="text-xl  font-semibold text-black block mb-1">Ferira Watson
+                                <span class="text-xl  font-semibold text-black block mb-1 dark:text-white">Ferira Watson
                                 </span>
                                 <span class=" block">Oct 09, 2021</span>
                             </div>
@@ -45,7 +45,7 @@
                             <div class="flex-1">
                                 <div class="flex flex-wrap justify-between mb-2">
                                     <div>
-                                        <span class="text-xl  font-semibold text-black block mb-1">Ferira
+                                        <span class="text-xl  font-semibold text-black block mb-1 dark:text-white">Ferira
                                             Watson
                                         </span>
                                         <span class=" block">Oct 09, 2021</span>
@@ -78,7 +78,7 @@
                     <div class="flex-1">
                         <div class="flex flex-wrap justify-between mb-2">
                             <div>
-                                <span class="text-xl  font-semibold text-black block mb-1">Ferira Watson
+                                <span class="text-xl  font-semibold text-black block mb-1 dark:text-white">Ferira Watson
                                 </span>
                                 <span class=" block">Oct 09, 2021</span>
                             </div>
