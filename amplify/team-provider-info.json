@@ -11,5 +11,23 @@
       "StackId": "arn:aws:cloudformation:ap-south-1:317786172055:stack/amplify-tbe-dev-95045/46f2dd20-02bd-11ee-bf29-0a5f049f7d94",
       "AmplifyAppId": "d1r8hx20i7nf3d"
     }
+  },
+  "auth": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tbe-auth-153640-authRole",
+      "UnauthRoleArn": "arn:aws:iam::317786172055:role/amplify-tbe-auth-153640-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::317786172055:role/amplify-tbe-auth-153640-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-tbe-auth-153640-deployment",
+      "UnauthRoleName": "amplify-tbe-auth-153640-unauthRole",
+      "StackName": "amplify-tbe-auth-153640",
+      "StackId": "arn:aws:cloudformation:ap-south-1:317786172055:stack/amplify-tbe-auth-153640/d2e28800-0dbf-11ee-91fc-0acd2a68c53e",
+      "AmplifyAppId": "d1r8hx20i7nf3d"
+    },
+    "categories": {
+      "api": {
+        "tbe": {}
+      }
+    }
   }
 }
