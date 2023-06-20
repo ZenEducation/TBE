@@ -34,7 +34,7 @@ const submit = async () => {
     console.log(user_from_amplify);
 
     if (user_from_amplify) {
-      router.push("/");
+      router.push("/AA/homeview");
       return;
     }
   } catch (err) {
