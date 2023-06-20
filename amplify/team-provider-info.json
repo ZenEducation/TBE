@@ -27,6 +27,9 @@
     "categories": {
       "api": {
         "tbe": {}
+      },
+      "auth": {
+        "tbea0776a71": {}
       }
     }
   }

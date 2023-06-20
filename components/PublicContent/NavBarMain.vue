@@ -1,4 +1,4 @@
-<template> 
+<template>
   <header class="site-header plain-text text-gray home-one-header top-0 w-full z-[9999] rt-sticky dark:bg-black"
     :class="[{ 'scrolledLight': isScrolled && !darkMode }, { 'scrolledDark': isScrolled && darkMode }]"
     :style="navBarStyles">
@@ -13,7 +13,7 @@
             <div class="flex-1 main-menu relative mr-[14px] h-auto">
               <ul class="menu-active-classes">
                 <li class=" menu-item-has-children">
-                  <NuxtLink class="dark:text-white" :class="{'dark:text-white':opaque}" to="/">Home</NuxtLink>
+                  <NuxtLink class="dark:text-white" :class="{ 'dark:text-white': opaque }" to="/">Home</NuxtLink>
                   <ul class="sub-menu">
                     <li>
                       <NuxtLink to="/">Home One</NuxtLink>
@@ -27,7 +27,7 @@
                   </ul>
                 </li>
                 <li class="menu-item-has-children">
-                  <NuxtLink class="dark:text-white" :class="{'dark:text-white':opaque}" to="#">Pages</NuxtLink>
+                  <NuxtLink class="dark:text-white" :class="{ 'dark:text-white': opaque }" to="#">Pages</NuxtLink>
                   <ul class="sub-menu">
                     <li>
                       <NuxtLink to="PC/about">About 1</NuxtLink>
@@ -56,7 +56,7 @@
                   </ul>
                 </li>
                 <li class="menu-item-has-children">
-                  <NuxtLink class="dark:text-white" :class="{'dark:text-white':opaque}" to="#">Courses</NuxtLink>
+                  <NuxtLink class="dark:text-white" :class="{ 'dark:text-white': opaque }" to="#">Courses</NuxtLink>
                   <ul class="sub-menu">
                     <li>
                       <NuxtLink to="PC/courses">courses</NuxtLink>
@@ -70,7 +70,7 @@
                   </ul>
                 </li>
                 <li class="menu-item-has-children">
-                  <NuxtLink class="dark:text-white" :class="{'dark:text-white':opaque}" to="#">Blog</NuxtLink>
+                  <NuxtLink class="dark:text-white" :class="{ 'dark:text-white': opaque }" to="#">Blogs</NuxtLink>
                   <ul class="sub-menu">
                     <li>
                       <NuxtLink to="PC/blog">Blog</NuxtLink>
@@ -87,16 +87,24 @@
                   </ul>
                 </li>
                 <li>
-                  <NuxtLink class="dark:text-white" :class="{'dark:text-white':opaque}" to="PC/contacts">Contacts</NuxtLink>
+                  <NuxtLink class="dark:text-white" :class="{ 'dark:text-white': opaque }" to="PC/contacts">Contacts
+                  </NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink to="/auth/register">Register</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink to="/auth/login">Login</NuxtLink>
                 </li>
               </ul>
-                <div class="lg:block hidden">
-                  <div class="border border-gray rounded-md  h-[46px] modal-search" :class="isSearchOpen ? 'modal-open' : ''">
-                    <input type="text"
-                      class=" block w-full rounded-md  h-full border-none ring-0 focus:outline-none  focus:ring-0"
-                      placeholder="Search..">
-                  </div>
+              <div class="lg:block hidden">
+                <div class="border border-gray rounded-md  h-[46px] modal-search"
+                  :class="isSearchOpen ? 'modal-open' : ''">
+                  <input type="text"
+                    class=" block w-full rounded-md  h-full border-none ring-0 focus:outline-none  focus:ring-0"
+                    placeholder="Search..">
                 </div>
+              </div>
             </div>
 
             <div class="flex-none flex space-x-[18px]">
@@ -228,6 +236,7 @@
           <li>
             <NuxtLink to="contacts">Contacts</NuxtLink>
           </li>
+
         </ul>
 
         <div class=" flex-none pb-4">
