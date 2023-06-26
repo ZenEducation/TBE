@@ -43,6 +43,10 @@ export const actions = {
 
   async login({ email, password }) {
     const userfromAmplify = await Auth.signIn(email, password);
+    localStorage.setItem(
+      "authToken",
+      userfromAmplify.signInUserSession.accessToken.jwtToken
+    );
     this.user = userfromAmplify;
     this.isAuthenticated = true;
     return this.user;
@@ -53,6 +57,7 @@ export const actions = {
     if (this.isAuthenticated === true) {
       this.isAuthenticated = false;
     }
+    localStorage.removeItem("authToken");
     this.user = null;
     if (!this.user) {
       console.log("User successfully logged out");
