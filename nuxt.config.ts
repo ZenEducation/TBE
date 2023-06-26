@@ -2,6 +2,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   // srcDir: "./",
+  ssr: false,
   css: [
     "@/assets/css/main.css",
     "@/assets/css/font-awesome-pro.min.css",
