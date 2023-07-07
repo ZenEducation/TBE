@@ -1,14 +1,12 @@
-import { useAuthStore } from "@/stores/authStore";
 import { useRouter } from "vue-router";
-const router = useRouter();
-const AuthStore = useAuthStore();
+import { Auth } from "aws-amplify";
 
-export default defineNuxtRouteMiddleware((to, from) => {
+export default defineNuxtRouteMiddleware(async (to, from) => {
+  const router = useRouter()
   try {
-    if (!localStorage.getItem("authToken")) {
-      return navigateTo("/auth/login");
-    }
+    const session = await Auth.currentSession()
+    return true
   } catch (error) {
-    console.log(error)
+    return navigateTo('/auth/login')
   }
 });

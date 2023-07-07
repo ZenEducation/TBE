@@ -1,5 +1,7 @@
 import { Auth } from "aws-amplify";
 import { defineStore } from "pinia";
+import { useRouter } from 'vue-router'
+const router = useRouter()
 
 export const state = () => ({
   isAuthenticated: false,
@@ -54,6 +56,8 @@ export const actions = {
 
   async logout() {
     await Auth.signOut();
+    navigateTo('/auth/login')
+
     if (this.isAuthenticated === true) {
       this.isAuthenticated = false;
     }

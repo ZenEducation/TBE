@@ -11,6 +11,7 @@ import FormCheckRadio from "@/components/AfterAuth/Forms/FormCheckRadio.vue";
 import BaseButtons from "@/components/AfterAuth/Buttons/BaseButtons.vue";
 import BaseButton from "@/components/AfterAuth/Buttons/BaseButton.vue";
 import { useAuthStore } from "@/stores/authStore";
+import { Auth } from "aws-amplify";
 
 const form = reactive({
   email: "",
@@ -24,6 +25,16 @@ const notificationModal = ref(false)
 const toggleNotificationModal = (val) => {
   notificationModal.value = val
 }
+
+const getSession = () => {
+  Auth.currentSession().then((res) => {
+    console.log(res)
+    router.push('/AA/homeview')
+  })
+}
+onMounted(() => {
+  getSession()
+})
 
 const submit = async () => {
   try {
@@ -70,6 +81,12 @@ const submit = async () => {
               <BaseButton to="/auth/register" color="info" outline label="Register" />
             </BaseButtons>
           </template>
+          <BaseButtons mb="-mb-8">
+            <BaseButton @click="() => Auth.federatedSignIn({ provider: 'Google' })" color="info" outline
+              label="Login with Google" />
+            <BaseButton @click="() => Auth.federatedSignIn({ provider: 'Facebook' })" color="info" outline
+              label="Login with Facebook" />
+          </BaseButtons>
         </CardBox>
       </SectionFullScreen>
     </NuxtLayout>
