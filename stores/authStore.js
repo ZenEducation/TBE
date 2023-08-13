@@ -1,5 +1,7 @@
 import { Auth } from "aws-amplify";
 import { defineStore } from "pinia";
+import { useRouter } from 'vue-router'
+const router = useRouter()
 
 export const state = () => ({
   isAuthenticated: false,
@@ -20,10 +22,15 @@ export const actions = {
     }
   },
 
-  async register({ email, password }) {
+  async register({ name, email, password, address, pincode }) {
     const user = await Auth.signUp({
       username: email,
       password,
+      attributes: {
+        name,
+        address,
+        'custom:pincode':pincode
+      }
     });
     return user;
   },
@@ -32,8 +39,16 @@ export const actions = {
     return await Auth.confirmSignUp(email, code);
   },
 
+  async resendConfirmationCode({ email }) {
+    await Auth.resendSignUp(email);
+  },
+
   async login({ email, password }) {
     const userfromAmplify = await Auth.signIn(email, password);
+    localStorage.setItem(
+      "authToken",
+      userfromAmplify.signInUserSession.accessToken.jwtToken
+    );
     this.user = userfromAmplify;
     this.isAuthenticated = true;
     return this.user;
@@ -41,14 +56,35 @@ export const actions = {
 
   async logout() {
     await Auth.signOut();
+    navigateTo('/auth/login')
+
     if (this.isAuthenticated === true) {
       this.isAuthenticated = false;
     }
+    localStorage.removeItem("authToken");
     this.user = null;
-    if (!user) {
+    if (!this.user) {
       console.log("User successfully logged out");
     }
   },
+
+  async forgetPassword({email}) {
+      const forgetInfo = await Auth.forgotPassword(email)
+      .then((data) => {return data})
+      .catch((err) => {return err});
+      return forgetInfo
+  },
+
+  async forgotPasswordSubmit({email, code, new_password}) {
+    try{
+      const newPasswordInfo = await Auth.forgotPasswordSubmit(email, code, new_password)
+      console.log(newPasswordInfo)
+    return newPasswordInfo;
+    }catch(err) {
+      console.log(err)
+      return err
+    }
+  }
 };
 
 export const useAuthStore = defineStore("authStore", {

@@ -48,7 +48,9 @@
     name: mainStore.userName,
     email: mainStore.userEmail,
   })
-
+  definePageMeta({
+  middleware: 'auth-check'
+})
   const passwordForm = reactive({
     password_current: '',
     password: '',
