@@ -7,8 +7,8 @@ if(url.includes('localhost')){
   awsconfig.oauth.redirectSignIn = 'http://localhost:3000/auth/login/'
   awsconfig.oauth.redirectSignOut = 'http://localhost:3000/auth/login/'
 }else{
-  awsconfig.oauth.redirectSignIn = 'https://subproject-auth.d1r8hx20i7nf3d.amplifyapp.com/auth/login/'
-  awsconfig.oauth.redirectSignOut = 'https://subproject-auth.d1r8hx20i7nf3d.amplifyapp.com/auth/login/'
+  awsconfig.oauth.redirectSignIn = 'https://dev.d1r8hx20i7nf3d.amplifyapp.com/auth/login/'
+  awsconfig.oauth.redirectSignOut = 'https://dev.d1r8hx20i7nf3d.amplifyapp.com/auth/login/'
 }
 Amplify.configure(awsconfig);
 Auth.configure(awsconfig)

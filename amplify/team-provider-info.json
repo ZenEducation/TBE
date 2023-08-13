@@ -10,6 +10,16 @@
       "StackName": "amplify-tbe-dev-95045",
       "StackId": "arn:aws:cloudformation:ap-south-1:317786172055:stack/amplify-tbe-dev-95045/46f2dd20-02bd-11ee-bf29-0a5f049f7d94",
       "AmplifyAppId": "d1r8hx20i7nf3d"
+    },
+    "categories": {
+      "auth": {
+        "tbee9e96813": {
+          "userPoolId": "ap-south-1_5MujMI0lD",
+          "userPoolName": "tbea0776a71_userpool_a0776a71-auth",
+          "webClientId": "30n9ro2apl7n4scqmoh5djbfm",
+          "nativeClientId": "30n9ro2apl7n4scqmoh5djbfm"
+        }
+      }
     }
   },
   "auth": {
